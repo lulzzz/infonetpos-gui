@@ -1,0 +1,57 @@
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\Themes\Generic.xbf
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.xr.xml
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.pri
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.xml
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.Uwp.csprojResolveAssemblyReference.cache
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\XamlTypeInfo.g.cs
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\Themes\Generic.xaml
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\Themes\Generic.xbf
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\XamlSaveStateFile.xml
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\priconfig.xml
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\priconfig.xml.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\layout.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\layout.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\resources.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\resources.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\pri.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\pri.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\qualifiers.txt
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\qualifiers.txt.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit.Extended.Uwp\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\Themes\Generic.xbf
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.xr.xml
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.dll
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.pdb
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.Extended.pri
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.dll
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.Uwp.csprojAssemblyReference.cache
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\XamlTypeInfo.g.cs
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\Themes\Generic.xaml
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\Themes\Generic.xbf
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\XamlSaveStateFile.xml
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.Uwp.csproj.CoreCompileInputs.cache
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.Uwp.csproj.CopyComplete
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.dll
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\MyToolkit.Extended.pdb
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\priconfig.xml
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\priconfig.xml.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\unfiltered.layout.resfiles
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\unfiltered.layout.resfiles.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\filtered.layout.resfiles
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\filtered.layout.resfiles.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\excluded.layout.resfiles
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\excluded.layout.resfiles.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\resources.resfiles
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\resources.resfiles.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\pri.resfiles
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\pri.resfiles.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\qualifiers.txt
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\qualifiers.txt.intermediate
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
+F:\Infonet MVCC\UI\MyToolkit.Extended.Uwp\bin\x86\Release\MyToolkit.xml

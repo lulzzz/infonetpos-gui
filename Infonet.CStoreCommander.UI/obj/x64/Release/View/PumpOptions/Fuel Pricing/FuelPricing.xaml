@@ -1,0 +1,215 @@
+﻿<Page x:ConnectionId='1' x:Class="Infonet.CStoreCommander.UI.View.Fuel_Pricing.FuelPricing"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Infonet.CStoreCommander.UI.View.Fuel_Pricing"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:control="using:Infonet.CStoreCommander.UI.Controls"
+      xmlns:triggers="using:Infonet.CStoreCommander.UI.Trigger"
+      xmlns:ControlLib="using:Infonet.CStoreCommander.ControlLib"
+      xmlns:converters="using:Infonet.CStoreCommander.UI.Converter"
+      mc:Ignorable="d">
+
+    <Page.Resources>
+        <ResourceDictionary Source="ms-appx:///Resources/TabStyleButton.xaml" />
+    </Page.Resources>
+
+    <Grid Padding="8,0,0,0">
+        <VisualStateManager.VisualStateGroups>
+
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <triggers:EqualsStateTrigger x:ConnectionId='5'                                                        
+                                                     EqualTo="BasePricing" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="btnBasePricing.Background"
+                                Value="{StaticResource HeaderBackgroundColor}" />
+                        <Setter Target="btnBasePricing.Foreground"
+                                Value="{StaticResource HeaderForegroundColor}" />
+
+                        <Setter Target="btnIncrements.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnTaxExemptIncrements.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnSelectPricesToDisplay.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+
+                        <Setter Target="btnIncrements.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnTaxExemptIncrements.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnSelectPricesToDisplay.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <triggers:EqualsStateTrigger x:ConnectionId='4'                                                        
+                                                     EqualTo="Increments" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="btnIncrements.Background"
+                                Value="{StaticResource HeaderBackgroundColor}" />
+                        <Setter Target="btnIncrements.Foreground"
+                                Value="{StaticResource HeaderForegroundColor}" />
+
+                        <Setter Target="btnBasePricing.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnTaxExemptIncrements.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnSelectPricesToDisplay.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+
+                        <Setter Target="btnBasePricing.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnTaxExemptIncrements.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnSelectPricesToDisplay.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <triggers:EqualsStateTrigger x:ConnectionId='3'                                                        
+                                                     EqualTo="Differences" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="btnTaxExemptIncrements.Background"
+                                Value="{StaticResource HeaderBackgroundColor}" />
+                        <Setter Target="btnTaxExemptIncrements.Foreground"
+                                Value="{StaticResource HeaderForegroundColor}" />
+
+                        <Setter Target="btnIncrements.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnBasePricing.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnSelectPricesToDisplay.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+
+                        <Setter Target="btnIncrements.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnBasePricing.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnSelectPricesToDisplay.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <triggers:EqualsStateTrigger x:ConnectionId='2'                                                        
+                                                     EqualTo="PricesToDisplay" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="btnSelectPricesToDisplay.Background"
+                                Value="{StaticResource HeaderBackgroundColor}" />
+                        <Setter Target="btnSelectPricesToDisplay.Foreground"
+                                Value="{StaticResource HeaderForegroundColor}" />
+
+                        <Setter Target="btnIncrements.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnBasePricing.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+                        <Setter Target="btnTaxExemptIncrements.Background"
+                                Value="{StaticResource BackgroundColor1Light}" />
+
+                        <Setter Target="btnIncrements.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnBasePricing.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                        <Setter Target="btnTaxExemptIncrements.Foreground"
+                                Value="{StaticResource LabelTextForegroundColor}" />
+                    </VisualState.Setters>
+                </VisualState>
+
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!--#region Heading-->
+        <control:ViewHeading x:ConnectionId='6' x:Uid="txtFuelPricing"
+                                                                                             />
+        <!--#endregion-->
+
+        <Grid Grid.Row="1"
+              Margin="0,0,0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!--#region  Base Pricing-->
+            <Button x:ConnectionId='8' x:Uid="btnBasePricing"
+                    x:Name="btnBasePricing"
+                    Width="105"
+                    Background="{StaticResource HeaderBackgroundColor}"
+                                                                                            
+                    Style="{StaticResource TabStyle}"
+                    Foreground="{StaticResource HeaderForegroundColor}"
+                    Margin="0,0,5,0" />
+            <!--#endregion-->
+
+            <!--#region Increments-->
+            <Button x:ConnectionId='9' x:Name="btnIncrements"
+                    Background="{StaticResource BackgroundColor1Light}"
+                    Grid.Column="1"
+                    Width="100"
+                    Margin="0,0,5,0"
+                                                                                           
+                    Foreground="{StaticResource LabelTextForegroundColor}"
+                                                                                           
+                    Style="{StaticResource TabStyle}">
+                <TextBlock x:Uid="btnIncrements"
+                           Padding="0"
+                           TextWrapping="WrapWholeWords" />
+            </Button>
+
+            <!--#endregion-->
+
+            <!--#region Differences-->
+            <Button x:ConnectionId='10' x:Name="btnTaxExemptIncrements"
+                                                                                                    
+                    Foreground="{StaticResource LabelTextForegroundColor}"
+                    Margin="0,0,5,0"
+                    Width="160"
+                    Style="{StaticResource TabStyle}"
+                    Background="{StaticResource BackgroundColor1Light}"
+                                                                                               
+                    Grid.Column="2">
+                <TextBlock x:Uid="btnTaxExemptIncrements"
+                           TextWrapping="WrapWholeWords" />
+            </Button>
+
+            <Button x:ConnectionId='11' x:Name="btnSelectPricesToDisplay"
+                                                                                                
+                    Foreground="{StaticResource LabelTextForegroundColor}"
+                    Margin="0,0,5,0"
+                    Width="140"
+                    Style="{StaticResource TabStyle}"
+                    Background="{StaticResource BackgroundColor1Light}"
+                                                                                          
+                    Grid.Column="3">
+                <TextBlock x:Uid="btnSelectPricesToDisplay"
+                           TextWrapping="Wrap"/>
+            </Button>
+            <!--#endregion-->
+
+        </Grid>
+
+        <Frame x:ConnectionId='7' x:Name="frmFuelPricing"
+               Grid.Row="2"
+               Background="{StaticResource BackgroundColor2}" />
+    </Grid>
+</Page>
+

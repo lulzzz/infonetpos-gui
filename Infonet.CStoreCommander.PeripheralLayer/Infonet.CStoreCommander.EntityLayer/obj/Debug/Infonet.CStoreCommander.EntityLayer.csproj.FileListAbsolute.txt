@@ -1,0 +1,33 @@
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\bin\Debug\Infonet.CStoreCommander.EntityLayer.dll
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\bin\Debug\Infonet.CStoreCommander.EntityLayer.pdb
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\bin\Debug\Infonet.CStoreCommander.EntityLayer.pri
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\Infonet.CStoreCommander.EntityLayer.dll
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\Infonet.CStoreCommander.EntityLayer.pdb
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\priconfig.xml
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\priconfig.xml.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\layout.resfiles
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\layout.resfiles.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\resources.resfiles
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\resources.resfiles.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\pri.resfiles
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\pri.resfiles.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\qualifiers.txt
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\qualifiers.txt.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\bin\Debug\Infonet.CStoreCommander.EntityLayer.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\bin\Debug\Infonet.CStoreCommander.EntityLayer.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\bin\Debug\Infonet.CStoreCommander.EntityLayer.pri
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\Infonet.CStoreCommander.EntityLayer.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\Infonet.CStoreCommander.EntityLayer.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\priconfig.xml
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\priconfig.xml.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\layout.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\layout.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\resources.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\resources.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\pri.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\pri.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\qualifiers.txt
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\qualifiers.txt.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.EntityLayer\obj\Debug\Infonet.CStoreCommander.EntityLayer.csprojResolveAssemblyReference.cache

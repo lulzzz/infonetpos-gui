@@ -1,0 +1,1355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Value" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="RedeemAmountByGift" />
+    <RootPropertyPathName Name="RedeemAmountByLoyalty" />
+    <RootPropertyPathName Name="CardNumber" />
+    <RootPropertyPathName Name="Text" />
+    <RootPropertyPathName Name="PopupService" />
+    <RootPropertyPathName Name="CarwashCode" />
+    <RootPropertyPathName Name="EnvelopeNumber" />
+    <RootPropertyPathName Name="PhoneNumber" />
+    <RootPropertyPathName Name="DiscountDisplay" />
+    <RootPropertyPathName Name="DiscountRateDisplay" />
+    <RootPropertyPathName Name="GroupName" />
+    <RootPropertyPathName Name="TreatyNumber" />
+    <RootPropertyPathName Name="KickBackNumber" />
+    <RootPropertyPathName Name="KickBackNumberEnteredCommand" />
+    <RootPropertyPathName Name="Height" />
+    <RootPropertyPathName Name="Width" />
+    <RootPropertyPathName Name="GenericReason" />
+    <RootPropertyPathName Name="IsPassword" />
+    <RootPropertyPathName Name="TextValueOfPopupWithTextBox" />
+    <RootPropertyPathName Name="IsText" />
+    <RootPropertyPathName Name="PurchaseOrderNumber" />
+    <RootPropertyPathName Name="BandMember" />
+    <RootPropertyPathName Name="Description" />
+    <RootPropertyPathName Name="DataContext" />
+    <RootPropertyPathName Name="CurrencyTappedCommand" />
+    <RootPropertyPathName Name="Content" />
+    <RootPropertyPathName Name="Quantity" />
+    <RootPropertyPathName Name="ActualWidth" />
+    <RootPropertyPathName Name="ActualHeight" />
+    <RootPropertyPathName Name="Heading" />
+    <RootPropertyPathName Name="PumpOptions" />
+    <RootPropertyPathName Name="SelectedPumpOptionIndex" />
+    <RootPropertyPathName Name="PayPumpOrPrepay" />
+    <RootPropertyPathName Name="TaxExemptionNumber" />
+    <RootPropertyPathName Name="IsEnabled" />
+    <RootPropertyPathName Name="Code" />
+    <RootPropertyPathName Name="Image" />
+    <RootPropertyPathName Name="TemplateSettings" />
+    <RootPropertyPathName Name="MinViewWidth" />
+    <RootPropertyPathName Name="ClipRect" />
+    <RootPropertyPathName Name="CenterX" />
+    <RootPropertyPathName Name="CenterY" />
+    <RootPropertyPathName Name="WeekDay7" />
+    <RootPropertyPathName Name="WeekDay6" />
+    <RootPropertyPathName Name="WeekDay5" />
+    <RootPropertyPathName Name="WeekDay4" />
+    <RootPropertyPathName Name="WeekDay3" />
+    <RootPropertyPathName Name="WeekDay2" />
+    <RootPropertyPathName Name="WeekDay1" />
+    <RootPropertyPathName Name="HasMoreContentAfter" />
+    <RootPropertyPathName Name="HasMoreContentBefore" />
+    <RootPropertyPathName Name="HeaderText" />
+    <RootPropertyPathName Name="HasMoreViews" />
+    <RootPropertyPathName Name="KnobOffToOnOffset" />
+    <RootPropertyPathName Name="KnobOnToOffOffset" />
+    <RootPropertyPathName Name="KnobCurrentToOnOffset" />
+    <RootPropertyPathName Name="OpenPaneGridLength" />
+    <RootPropertyPathName Name="OpenPaneLengthMinusCompactLength" />
+    <RootPropertyPathName Name="CompactPaneGridLength" />
+    <RootPropertyPathName Name="NegativeOpenPaneLengthMinusCompactLength" />
+    <RootPropertyPathName Name="NegativeOpenPaneLength" />
+    <RootPropertyPathName Name="OpenPaneLength" />
+    <RootPropertyPathName Name="DropDownContentMinWidth" />
+    <RootPropertyPathName Name="AckrooAmount" />
+    <RootPropertyPathName Name="CarwashUnits" />
+    <RootPropertyPathName Name="OpenNumberPadCommand" />
+    <RootPropertyPathName Name="Pin" />
+    <RootPropertyPathName Name="Number" />
+    <RootPropertyPathName Name="Amount" />
+    <RootPropertyPathName Name="BarCode" />
+    <RootPropertyPathName Name="CustomerName" />
+    <RootPropertyPathName Name="PermitNumber" />
+    <RootPropertyPathName Name="OverLimitDetails" />
+    <RootPropertyPathName Name="QuotaLimit" />
+    <RootPropertyPathName Name="QuotaUsed" />
+    <RootPropertyPathName Name="ExemptedTax" />
+    <RootPropertyPathName Name="TaxFreePrice" />
+    <RootPropertyPathName Name="RegularPrice" />
+    <RootPropertyPathName Name="Product" />
+    <RootPropertyPathName Name="Type" />
+    <RootPropertyPathName Name="Reason" />
+    <RootPropertyPathName Name="HidePropaneExplanation" />
+    <RootPropertyPathName Name="PropaneLocation" />
+    <RootPropertyPathName Name="ShowPropaneExplanation" />
+    <RootPropertyPathName Name="PropaneExplanation" />
+    <RootPropertyPathName Name="PropaneReason" />
+    <RootPropertyPathName Name="HideGasExplanation" />
+    <RootPropertyPathName Name="GasLocation" />
+    <RootPropertyPathName Name="ShowGasExplanation" />
+    <RootPropertyPathName Name="GasolineExplanation" />
+    <RootPropertyPathName Name="GasReason" />
+    <RootPropertyPathName Name="HideTobaccoExplanation" />
+    <RootPropertyPathName Name="TobaccoLocation" />
+    <RootPropertyPathName Name="ShowTobaccoExplanation" />
+    <RootPropertyPathName Name="TobaccoExplanation" />
+    <RootPropertyPathName Name="TobaccoReason" />
+    <RootPropertyPathName Name="Details" />
+    <RootPropertyPathName Name="Document" />
+    <RootPropertyPathName Name="OverrideLimitDetails" />
+    <RootPropertyPathName Name="Price" />
+    <RootPropertyPathName Name="EquivalentQuantity" />
+    <RootPropertyPathName Name="Id" />
+    <RootPropertyPathName Name="TypeId" />
+    <RootPropertyPathName Name="SerialNumber" />
+    <RootPropertyPathName Name="CouponNumber" />
+    <RootPropertyPathName Name="Customer" />
+    <RootPropertyPathName Name="SecondFrameBackNavigationCommand" />
+    <RootPropertyPathName Name="DipValue" />
+    <RootPropertyPathName Name="Grade" />
+    <RootPropertyPathName Name="TankId" />
+    <RootPropertyPathName Name="GiveXReports" />
+    <RootPropertyPathName Name="Report" />
+    <RootPropertyPathName Name="BatchTime" />
+    <RootPropertyPathName Name="BatchDate" />
+    <RootPropertyPathName Name="CashOut" />
+    <RootPropertyPathName Name="Count" />
+    <RootPropertyPathName Name="Tender" />
+    <RootPropertyPathName Name="Entered" />
+    <RootPropertyPathName Name="System" />
+    <RootPropertyPathName Name="Difference" />
+    <RootPropertyPathName Name="AmtDisplay" />
+    <RootPropertyPathName Name="ProductCode" />
+    <RootPropertyPathName Name="UpcNumber" />
+    <RootPropertyPathName Name="SearchText" />
+    <RootPropertyPathName Name="AMT" />
+    <RootPropertyPathName Name="DisplayAmount" />
+    <RootPropertyPathName Name="DESCRIPT" />
+    <RootPropertyPathName Name="SALE_DATE" />
+    <RootPropertyPathName Name="STOCK_CODE" />
+    <RootPropertyPathName Name="TransactionID" />
+    <RootPropertyPathName Name="RefCode" />
+    <RootPropertyPathName Name="PhoneNumber2" />
+    <RootPropertyPathName Name="UnitPrice" />
+    <RootPropertyPathName Name="UsedVolume" />
+    <RootPropertyPathName Name="UsedAmount" />
+    <RootPropertyPathName Name="PrepayVolume" />
+    <RootPropertyPathName Name="PrepayAmount" />
+    <RootPropertyPathName Name="SaleNumber" />
+    <RootPropertyPathName Name="PositionId" />
+    <RootPropertyPathName Name="PumpId" />
+    <RootPropertyPathName Name="CreditPrice" />
+    <RootPropertyPathName Name="CashPrice" />
+    <RootPropertyPathName Name="Level" />
+    <RootPropertyPathName Name="Tier" />
+    <RootPropertyPathName Name="TaxExemptedCreditPrice" />
+    <RootPropertyPathName Name="TaxExemptedCashPrice" />
+    <RootPropertyPathName Name="Credit" />
+    <RootPropertyPathName Name="Cash" />
+    <RootPropertyPathName Name="TierLevel" />
+    <RootPropertyPathName Name="AddAmount" />
+    <RootPropertyPathName Name="Balance" />
+    <RootPropertyPathName Name="GivexCardNumber" />
+    <RootPropertyPathName Name="GiftCertificates" />
+    <RootPropertyPathName Name="GiftCertificate" />
+    <RootPropertyPathName Name="SoldDate" />
+    <RootPropertyPathName Name="CertificateNumber" />
+    <RootPropertyPathName Name="text" />
+    <RootPropertyPathName Name="StoreCreditNumber" />
+    <RootPropertyPathName Name="Password" />
+    <RootPropertyPathName Name="AmountValue" />
+    <RootPropertyPathName Name="AmountEntered" />
+    <RootPropertyPathName Name="TenderName" />
+    <RootPropertyPathName Name="IncreaseCashDrawValueCommand" />
+    <RootPropertyPathName Name="DecreaseCashDrawValueCommand" />
+    <RootPropertyPathName Name="Phone" />
+    <RootPropertyPathName Name="EnteredAmount" />
+    <RootPropertyPathName Name="Key" />
+    <RootPropertyPathName Name="NetSales" />
+    <RootPropertyPathName Name="Department" />
+    <RootPropertyPathName Name="Time" />
+    <RootPropertyPathName Name="Date" />
+    <RootPropertyPathName Name="TerminalId" />
+    <RootPropertyPathName Name="BatchNumber" />
+    <RootPropertyPathName Name="SoldOn" />
+    <RootPropertyPathName Name="Pump" />
+    <RootPropertyPathName Name="Volume" />
+    <RootPropertyPathName Name="ReportName" />
+    <RootPropertyPathName Name="IsReportEnable" />
+    <RootPropertyPathName Name="GiftCard" />
+    <RootPropertyPathName Name="GiftNumber" />
+    <RootPropertyPathName Name="SaleModel" />
+    <RootPropertyPathName Name="SaleLines" />
+    <RootPropertyPathName Name="Discount" />
+    <RootPropertyPathName Name="LineNumber" />
+    <RootPropertyPathName Name="Sales" />
+    <RootPropertyPathName Name="TotalAmount" />
+    <RootPropertyPathName Name="TillNumber" />
+    <RootPropertyPathName Name="SuspendedSales" />
+    <RootPropertyPathName Name="SelectedSale" />
+    <RootPropertyPathName Name="Till" />
+    <RootPropertyPathName Name="Customers" />
+    <RootPropertyPathName Name="Points" />
+    <RootPropertyPathName Name="LoyaltyNumber" />
+    <RootPropertyPathName Name="PumpInteractionCommand" />
+    <RootPropertyPathName Name="AddBasketCommand" />
+    <RootPropertyPathName Name="NumberOfPumpsInARow" />
+    <RootPropertyPathName Name="SetQuantityCommand" />
+    <RootPropertyPathName Name="IncreaseQuantity" />
+    <RootPropertyPathName Name="ReduceQuantityCommand" />
+    <RootPropertyPathName Name="PageName" />
+    <RootPropertyPathName Name="BottleDetails" />
+    <RootPropertyPathName Name="AmountToDisplay" />
+    <RootPropertyPathName Name="Sale" />
+    <RootPropertyPathName Name="CategoryChangedCommand" />
+    <RootPropertyPathName Name="PageId" />
+    <RootPropertyPathName Name="ProductDetails" />
+    <RootPropertyPathName Name="AllowDiscountChange" />
+    <RootPropertyPathName Name="AllowPriceChange" />
+    <RootPropertyPathName Name="AllowQuantityChange" />
+    <RootPropertyPathName Name="AllowStockCodeChange" />
+    <RootPropertyPathName Name="StockCode" />
+    <RootPropertyPathName Name="StockPriceModel" />
+    <RootPropertyPathName Name="IsAddButtonVisible" />
+    <RootPropertyPathName Name="IsEditButtonPressed" />
+    <RootPropertyPathName Name="MinusCommand" />
+    <RootPropertyPathName Name="Column3" />
+    <RootPropertyPathName Name="Column2" />
+    <RootPropertyPathName Name="Column1" />
+    <RootPropertyPathName Name="SelectedIndex" />
+    <RootPropertyPathName Name="PlusCommand" />
+    <RootPropertyPathName Name="TaxExemptPrice" />
+    <RootPropertyPathName Name="RegularPriceText" />
+    <RootPropertyPathName Name="StockItems" />
+    <RootPropertyPathName Name="AlternateCode" />
+    <RootPropertyPathName Name="LevelCheckedCommand" />
+    <RootPropertyPathName Name="TierCheckedCommand" />
+    <RootPropertyPathName Name="TierlevelModel" />
+    <RootPropertyPathName Name="PumpTierLevels" />
+    <RootPropertyPathName Name="LevelName" />
+    <RootPropertyPathName Name="TierName" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush" />
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TextTrimming" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="LayoutUpdated" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MinHeight" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.CurrencyConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.BoolToVisibilityConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.NothingConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.DecimalToStringConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.AmountDisplayConverter" />
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Clip" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="MaxWidth" />
+      <RootEvent Name="Loaded" />
+      <RootEvent Name="LayoutUpdated" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+      <RootProperty Name="MaxWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.SmallPopupHeader">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CancelCommand" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="MyToolkit.Controls.DataGrid">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="HeaderBackground" />
+      <RootProperty Name="HeaderForeground" />
+      <RootProperty Name="IsDeleteEnabled" />
+      <RootProperty Name="RowBackgroundEvenBrush" />
+      <RootProperty Name="RowBackgroundOddBrush" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Columns" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="UpdateOnlyOnEnter" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="FocusOnEditableRow" />
+      <RootProperty Name="HeaderHeight" />
+      <RootProperty Name="ItemToAdd" />
+      <RootProperty Name="HeaderFontSize" />
+      <RootProperty Name="SelectedValues" />
+      <RootProperty Name="SelectionAllowed" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="DeleteCommand" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+    </RootType>
+    <RootType FullName="MyToolkit.Controls.DataGridTextColumn">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Binding" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="MaxCharacterLength" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="CanSort" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="IsEdit" />
+      <RootProperty Name="KeyUpCommand" />
+      <RootProperty Name="InputScope" />
+      <RootProperty Name="NumericKeyType" />
+      <RootProperty Name="Edit" />
+      <RootProperty Name="FocusOnEditableRow" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="UpdateSourceTrigger" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="FallbackValue" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Underline">
+      <RootProperty Name="Inlines" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.ControlLib.GenericButton">
+      <RootProperty Name="BottomBackGroundColor" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="UpperHeight" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="CommandParameter" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="MyToolkit.Extended.Controls.CustomTextBox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="EnterPressedCommand" />
+      <RootProperty Name="InputScope" />
+      <RootProperty Name="NumericKeyType" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="MaxLength" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="TextChanged" />
+      <RootEvent Name="KeyDown" />
+      <RootEvent Name="KeyUp" />
+      <RootEvent Name="GotFocus" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
+      <RootMethod Name="GetBehaviors" />
+      <RootMethod Name="SetBehaviors" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
+      <RootProperty Name="EventName" />
+      <RootProperty Name="Actions" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.AckrooAccoutBalance">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Imaging.BitmapImage">
+      <RootProperty Name="UriSource" />
+      <RootProperty Name="DecodePixelHeight" />
+      <RootProperty Name="DecodePixelWidth" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.AckrooTenderPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.BarCodeTextbox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="EnterPressedCommand" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.CarwashPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.CheckoutOptions">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.EmergencyPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.EnvelopeNumberPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="WinRT.Triggers.Interactions">
+      <RootMethod Name="GetTriggers" />
+      <RootMethod Name="SetTriggers" />
+    </RootType>
+    <RootType FullName="WinRT.Triggers.EventTrigger">
+      <RootProperty Name="EventName" />
+      <RootProperty Name="TriggerActions" />
+    </RootType>
+    <RootType FullName="WinRT.Triggers.InvokeCommandAction">
+      <RootProperty Name="Command" />
+      <RootProperty Name="PassEventArgsToCommand" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.FNGTRPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.FuelDiscountPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="Clip" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.GroupBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CustomContent" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.GstPstTaxExemptPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.KickBackNumberPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.NullToVisibilityConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.KickbackBalancePopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="TabIndex" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.LargePopupHeader">
+      <RootProperty Name="CancelCommand" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">
+      <RootProperty Name="IsActive" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.LoadingPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="MaxLength" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="InputScope" />
+      <RootProperty Name="TabIndex" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.MessagePopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Heading" />
+      <RootProperty Name="CancelCommand" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
+      <RootProperty Name="Password" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MaxLength" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="PasswordChar" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="PasswordRevealMode" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="IsEnabled" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.PopupWithTextBox">
+      <RootProperty Name="Height" />
+      <RootProperty Name="PasswordRevealMode" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.PurchaseOrderPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.QitePopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HeaderTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Symbol" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="TabNavigation" />
+      <RootProperty Name="IsEnabled" />
+      <RootMethod Name="GetIsTemplateFocusTarget" />
+      <RootMethod Name="SetIsTemplateFocusTarget" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.ReasonList">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Heading" />
+      <RootProperty Name="ItemClicked" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.NotificationPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Message" />
+      <RootProperty Name="Continue" />
+      <RootProperty Name="ButtonBackgroundColor" />
+      <RootProperty Name="Title" />
+      <RootProperty Name="BackgroundOverlay" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.SecondFrameHeading">
+      <RootProperty Name="Text" />
+      <RootProperty Name="BackArrowVisibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="PreviousFrame" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="ItemsPanel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="BringIntoViewOnFocusChange" />
+      <RootProperty Name="HorizontalSnapPointsAlignment" />
+      <RootProperty Name="HorizontalSnapPointsType" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="VerticalSnapPointsType" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="ZoomMode" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="IsHorizontalRailEnabled" />
+      <RootProperty Name="IsVerticalRailEnabled" />
+      <RootProperty Name="IsDeferredScrollingEnabled" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="VerticalSnapPointsAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
+      <RootMethod Name="GetVerticalScrollMode" />
+      <RootMethod Name="SetVerticalScrollMode" />
+      <RootMethod Name="GetHorizontalScrollMode" />
+      <RootMethod Name="SetHorizontalScrollMode" />
+      <RootMethod Name="GetHorizontalScrollBarVisibility" />
+      <RootMethod Name="SetHorizontalScrollBarVisibility" />
+      <RootMethod Name="GetIsDeferredScrollingEnabled" />
+      <RootMethod Name="SetIsDeferredScrollingEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.NumberPad">
+      <RootProperty Name="IsAdditionEnabled" />
+      <RootProperty Name="IsSubtractionEnabled" />
+      <RootProperty Name="IsDollarVisible" />
+      <RootProperty Name="BackNavigation" />
+      <RootProperty Name="CashButtonItemSource" />
+      <RootProperty Name="EnterTappedCommand" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="BackArrowVisibility" />
+      <RootProperty Name="IsDecimalValueAllowed" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.ProductQuantityVisibilityConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.FontsizeConverter" />
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="EndPoint" />
+      <RootProperty Name="GradientStops" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
+      <RootProperty Name="Offset" />
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.ProductDatatemplate">
+      <RootProperty Name="IncreaseQuantityCommand" />
+      <RootProperty Name="DecreaseQuantityCommand" />
+      <RootProperty Name="SetQuantityCommand" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+      <RootProperty Name="Transitions" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
+      <RootProperty Name="Storyboard" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Trigger.EqualsStateTrigger">
+      <RootProperty Name="Value" />
+      <RootProperty Name="EqualTo" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedIndex" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="DisplayMemberPath" />
+      <RootProperty Name="SelectedValuePath" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="ItemContainerStyle" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.PumpDataTemplate">
+      <RootProperty Name="PumpInteractionCommand" />
+      <RootProperty Name="AddBasketCommand" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.PopupWithTwoButtons">
+      <RootProperty Name="HeadingText" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FirstButtonBottomBackgroundColor" />
+      <RootProperty Name="SecondButtonBottomBackgroundColor" />
+      <RootProperty Name="FirstButtonText" />
+      <RootProperty Name="Description" />
+      <RootProperty Name="SecondButtonText" />
+      <RootProperty Name="ThirdButtonText" />
+      <RootProperty Name="IsThirdButtonVisible" />
+      <RootProperty Name="ThirdButtonBottomBackgroundColor" />
+      <RootProperty Name="BackgroundOverlay" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.PumpOptions">
+      <RootProperty Name="Height" />
+      <RootProperty Name="CancelCommand" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsOn" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.ReturnsPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.SearchTextBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.TaxExemptionPopup">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.TenderDataTemplate">
+      <RootProperty Name="OpenNumberPadCommand" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Controls.ViewHeading">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="BackCommand" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Infonet.CStoreCommander.UI.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
+      <RootProperty Name="Children" />
+      <RootProperty Name="RepeatBehavior" />
+      <RootProperty Name="SpeedRatio" />
+      <RootMethod Name="GetTargetName" />
+      <RootMethod Name="SetTargetName" />
+      <RootMethod Name="GetTargetProperty" />
+      <RootMethod Name="SetTargetProperty" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="OpticalMarginAlignment" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="FlowDirection" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAccessibilityView" />
+      <RootMethod Name="SetAccessibilityView" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.PivotHeaderPanel">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Panel">
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.PivotHeaderItem" />
+    <RootType FullName="Windows.UI.Xaml.VisualTransition">
+      <RootProperty Name="From" />
+      <RootProperty Name="To" />
+      <RootProperty Name="GeneratedDuration" />
+      <RootProperty Name="Storyboard" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
+      <RootProperty Name="Duration" />
+      <RootProperty Name="To" />
+      <RootProperty Name="From" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform" />
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Glyph" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MirroredWhenRightToLeft" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.PivotPanel">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPresenter">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.TransformGroup">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.RectangleGeometry">
+      <RootProperty Name="Rect" />
+      <RootProperty Name="Transform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="CalendarViewStyle" />
+      <RootProperty Name="DateFormat" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarView">
+      <RootProperty Name="FocusBorderBrush" />
+      <RootProperty Name="SelectedHoverBorderBrush" />
+      <RootProperty Name="SelectedPressedBorderBrush" />
+      <RootProperty Name="SelectedBorderBrush" />
+      <RootProperty Name="HoverBorderBrush" />
+      <RootProperty Name="PressedBorderBrush" />
+      <RootProperty Name="TodayForeground" />
+      <RootProperty Name="BlackoutForeground" />
+      <RootProperty Name="SelectedForeground" />
+      <RootProperty Name="PressedForeground" />
+      <RootProperty Name="OutOfScopeForeground" />
+      <RootProperty Name="CalendarItemForeground" />
+      <RootProperty Name="OutOfScopeBackground" />
+      <RootProperty Name="CalendarItemBackground" />
+      <RootProperty Name="DayItemFontFamily" />
+      <RootProperty Name="FirstOfMonthLabelFontFamily" />
+      <RootProperty Name="MonthYearItemFontFamily" />
+      <RootProperty Name="FirstOfYearDecadeLabelFontFamily" />
+      <RootProperty Name="CalendarItemBorderThickness" />
+      <RootProperty Name="CalendarIdentifier" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="DayOfWeekFormat" />
+      <RootProperty Name="FirstDayOfWeek" />
+      <RootProperty Name="IsTodayHighlighted" />
+      <RootProperty Name="IsGroupLabelVisible" />
+      <RootProperty Name="IsOutOfScopeEnabled" />
+      <RootProperty Name="MinDate" />
+      <RootProperty Name="MaxDate" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.LinearDoubleKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.SplineDoubleKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="KeySpline" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteDoubleKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ScaleTransform">
+      <RootProperty Name="CenterX" />
+      <RootProperty Name="CenterY" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.CalendarPanel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.FlyoutBase">
+      <RootMethod Name="GetAttachedFlyout" />
+      <RootMethod Name="SetAttachedFlyout" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
+      <RootProperty Name="Placement" />
+      <RootProperty Name="FlyoutPresenterStyle" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FlyoutPresenter" />
+    <RootType FullName="System.Boolean" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.RepositionThemeAnimation">
+      <RootProperty Name="FromHorizontalOffset" />
+      <RootProperty Name="TargetName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Thumb">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="CompactPaneLength" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="ItemsPanel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
+      <RootProperty Name="Child" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.CarouselPanel" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerDownThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Ackroo.Ackroo" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.ObjectToObjectConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Ackroo.AckrooBalance" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Ackroo.AckrooCardActivation" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Ackroo.AckrooIncreaseFund" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Ackroo.AckrooMenu" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Ackroo.AckrooSellCarwashUnits" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.BlankView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem" />
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="IsHoldingEnabled" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.DoubleDigitVisibilityConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.TripleDigitVisibilityConveter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.FourDigitVisibilityConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.CashManager.CashTender" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.CashManager.TendersNumberPad" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.Carwash" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.FuelDiscountPolicies" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.GiveXTender" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.TaxExempt.AITE" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.TaxExempt.SignatureScreen" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.TaxExempt.SITE" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.SelectedCustomerConverter" />
+    <RootType FullName="Infonet.CStoreCommander.ControlLib.CustomCalendarDatePicker">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="SelectedDate" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="DateFormat" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="CalendarViewStyle" />
+      <RootProperty Name="IsEnabled" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.TaxExempt.TaxExemptOverLimit" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.TaxExempt.OverrideLimit" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.TendersQuantityPad" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.VendorCoupon" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Common.Errors" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Common.MasterPage" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Customer.AddCustomer" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.IntToStringConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.AddItemByCode" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.DipInput.DipInput" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.GiveX.GivexReport" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.GiveX.GiveXReportGrid" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Login.TillClose" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Payments.Fleet" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Prepay.Prepay" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Prepay.PrepayNumberPad" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PaymentSource" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.Download" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.EP" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.PS" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlock">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="OverflowContentTarget" />
+      <RootProperty Name="IsTextSelectionEnabled" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Blocks" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlockOverflow">
+      <RootProperty Name="OverflowContentTarget" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Paragraph">
+      <RootProperty Name="Inlines" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.Receipt" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.Refund" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.TX" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.VP" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Finish" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.AddManual" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Fuel_Pricing.BasePrice" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.Differences" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.FuelPriceQuantityPad" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Fuel_Pricing.FuelPricing" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.GiveX.GiveX" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.Coupon" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.FleetCard" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.GiftCertificateListConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.GiftCertificate" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.PaymentByGiveX" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.SalesSummary" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.StoreCreditListConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.StoreCredit" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.DisabledConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Checkout.Tender" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames">
+      <RootProperty Name="EnableDependentAnimation" />
+      <RootProperty Name="BeginTime" />
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.LinearColorKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Login.Freezed" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.CashManager.CashDraw" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.CashManager.CashDrop" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.CashManager.CashType" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.IsEnableConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Payments.AR" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Payments.Payment" />
+    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MaximumRowsOrColumns" />
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Payments.Payouts" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.FuelReport" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.Increments" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.PricesToDisplay" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.TaxExemptDifferences" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Fuel_Pricing.TaxExemptIncrements" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Propane.AmountNumberPad" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.PumpOptions.Propane.PropaneGrade" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reports.ReportOptions.FlashReport" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reports.ReportOptions.TillAuditReport" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reports.ReportOptions.Totals" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reports.ReportOptions.Report" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reports.ReportOptions.SalesCount" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reports.Reports" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reprint.LastPrint" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reprint.ReceiptPreview" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Reprint.Reprint" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.GiftCard" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.NumberpadForBottleItems" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.AppendHashConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.ReturnSaleItems" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.ReturnSale" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.UnsuspendSale" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Settings.MaintenanceOptions.Banking" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Customer.Customers" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Customer.LoyaltyCustomers" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.BoolToPassswordVisibilityConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.HomeScreen" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.LoginScreen" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.LogoutScreen" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Settings.Maintenance" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.BottleItems" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.BottleReturns" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.SetQuantityForHotCategories" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Products" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Sale.SaleGrid" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Settings.MaintenanceOptions.Policy" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Settings.MaintenanceOptions.ServicePump" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.ExtendedSplashScreen" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Settings.MaintenanceOptions.SwitchUserOrChangePassword" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Stock.AddStock" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Stock.PriceCheck" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.SelectedStockConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.Stock.SearchStock" />
+    <RootType FullName="Infonet.CStoreCommander.UI.Converter.TierLevelListConverter" />
+    <RootType FullName="Infonet.CStoreCommander.UI.View.TierLevel.TierLevel" />
+  </Roots.RootTypes>
+</Roots>

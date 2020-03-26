@@ -1,0 +1,1 @@
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\obj\x64\Debug\Infonet.CStoreCommander.UI.csprojResolveAssemblyReference.cache

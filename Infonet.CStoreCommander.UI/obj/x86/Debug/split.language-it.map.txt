@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-it"
+"ResourceDimensions"		"language-it-it"
+
+[Files]
+"C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\obj\x86\Debug\split.language-it.pri"			"resources.pri"

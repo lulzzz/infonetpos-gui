@@ -1,0 +1,33 @@
+C:\Infonet 10122018\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.dll
+C:\Infonet 10122018\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.pdb
+C:\Infonet 10122018\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.dll
+C:\Infonet 10122018\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csprojResolveAssemblyReference.cache
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.dll
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.pdb
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csprojAssemblyReference.cache
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csproj.CoreCompileInputs.cache
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.dll
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.pdb
+F:\Infonet_NextGen_Win32Printer\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.dll
+F:\Infonet_NextGen_Win32Printer\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.pdb
+F:\Infonet_NextGen_Win32Printer\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csproj.CoreCompileInputs.cache
+F:\Infonet_NextGen_Win32Printer\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.dll
+F:\Infonet_NextGen_Win32Printer\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.pdb
+F:\Infonet_NextGen_Win32Printer\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csprojAssemblyReference.cache
+F:\infonetpos\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.dll
+F:\infonetpos\InfonetUI-UWP_Dev\MyToolkit\bin\Debug\MyToolkit.pdb
+F:\infonetpos\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csproj.CoreCompileInputs.cache
+F:\infonetpos\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.dll
+F:\infonetpos\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.pdb
+F:\infonetpos\InfonetUI-UWP_Dev\MyToolkit\obj\Debug\MyToolkit.csprojAssemblyReference.cache
+F:\infonetpos\infonetpos-gui\MyToolkit\bin\Debug\MyToolkit.dll
+F:\infonetpos\infonetpos-gui\MyToolkit\bin\Debug\MyToolkit.pdb
+F:\infonetpos\infonetpos-gui\MyToolkit\obj\Debug\MyToolkit.csprojAssemblyReference.cache
+F:\infonetpos\infonetpos-gui\MyToolkit\obj\Debug\MyToolkit.csproj.CoreCompileInputs.cache
+F:\infonetpos\infonetpos-gui\MyToolkit\obj\Debug\MyToolkit.dll
+F:\infonetpos\infonetpos-gui\MyToolkit\obj\Debug\MyToolkit.pdb

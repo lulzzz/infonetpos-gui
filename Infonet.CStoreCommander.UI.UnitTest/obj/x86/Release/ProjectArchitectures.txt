@@ -1,0 +1,1 @@
+F:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI.UnitTest\Infonet.CStoreCommander.UI.UnitTest.csproj;x86

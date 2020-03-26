@@ -1,0 +1,519 @@
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Images\LockScreenLogo.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Images\Square150x150Logo.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Images\Square44x44Logo.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Images\StoreLogo.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Images\Wide310x150Logo.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\SplashScreen.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Square150x150Logo.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Square44x44Logo.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Square44x44Logo.targetsize-24_altform-unplated.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\StoreLogo.scale-100.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\Wide310x150Logo.scale-200.png
+C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI.Package\bin\x86\Debug\resources.pri
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\Microsoft.Win32.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\netstandard.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.AppContext.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Collections.Concurrent.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Collections.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Collections.NonGeneric.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Collections.Specialized.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.ComponentModel.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.ComponentModel.EventBasedAsync.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.ComponentModel.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.ComponentModel.TypeConverter.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Console.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Data.Common.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.Contracts.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.Debug.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.FileVersionInfo.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.Process.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.StackTrace.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.TextWriterTraceListener.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.Tools.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.TraceSource.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Diagnostics.Tracing.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Drawing.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Dynamic.Runtime.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Globalization.Calendars.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Globalization.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Globalization.Extensions.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.Compression.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.Compression.ZipFile.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.FileSystem.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.FileSystem.DriveInfo.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.FileSystem.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.FileSystem.Watcher.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.IsolatedStorage.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.MemoryMappedFiles.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.Pipes.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.IO.UnmanagedMemoryStream.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Linq.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Linq.Expressions.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Linq.Parallel.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Linq.Queryable.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Http.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.NameResolution.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.NetworkInformation.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Ping.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Requests.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Security.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Sockets.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.WebHeaderCollection.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.WebSockets.Client.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.WebSockets.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.ObjectModel.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Reflection.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Reflection.Extensions.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Reflection.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Resources.Reader.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Resources.ResourceManager.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Resources.Writer.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.CompilerServices.VisualC.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Extensions.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Handles.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.InteropServices.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Numerics.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Serialization.Formatters.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Serialization.Json.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Serialization.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Runtime.Serialization.Xml.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Claims.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Cryptography.Algorithms.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Cryptography.Csp.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Cryptography.Encoding.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Cryptography.Primitives.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Cryptography.X509Certificates.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.Principal.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Security.SecureString.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Text.Encoding.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Text.Encoding.Extensions.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Text.RegularExpressions.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.Overlapped.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.Tasks.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.Tasks.Parallel.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.Thread.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.ThreadPool.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Threading.Timer.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.ValueTuple.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Xml.ReaderWriter.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Xml.XDocument.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Xml.XmlDocument.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Xml.XmlSerializer.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Xml.XPath.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Xml.XPath.XDocument.dll
+F:\infonetpos\infonetpos-gui\Win32Printer\bin\Debug\Win32Printer.exe
+F:\infonetpos\infonetpos-gui\Win32Printer\bin\Debug\Win32Printer.exe.config
+F:\infonetpos\infonetpos-gui\Win32Printer\bin\Debug\Win32Printer.pdb
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Infonet.CStoreCommander.UI.exe
+C:\Users\tony\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll
+C:\Users\tony\.nuget\packages\metrolog\1.0.1\lib\win81\MetroLog.dll
+C:\Users\tony\.nuget\packages\microsoft.aspnet.signalr.client\2.2.1\lib\netcore50\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\tony\.nuget\packages\microsoft.csharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll
+C:\Users\tony\.nuget\packages\microsoft.net.http\2.2.28\lib\win8\System.Net.Http.Extensions.dll
+C:\Users\tony\.nuget\packages\microsoft.net.http\2.2.28\lib\win8\System.Net.Http.Primitives.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Core.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Net.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Numerics.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Windows.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.dll
+C:\Users\tony\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.dll
+C:\Users\tony\.nuget\packages\microsoft.visualbasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll
+C:\Users\tony\.nuget\packages\microsoft.win32.primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll
+C:\Users\tony\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll
+C:\Users\tony\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll
+C:\Users\tony\.nuget\packages\mvvmlightlibs\5.3.0\lib\windows81\GalaSoft.MvvmLight.Extras.dll
+C:\Users\tony\.nuget\packages\mvvmlightlibs\5.3.0\lib\windows81\GalaSoft.MvvmLight.Platform.dll
+C:\Users\tony\.nuget\packages\mvvmlightlibs\5.3.0\lib\windows81\GalaSoft.MvvmLight.dll
+C:\Users\tony\.nuget\packages\newtonsoft.json\6.0.4\lib\netcore45\Newtonsoft.Json.dll
+C:\Users\tony\.nuget\packages\system.appcontext\4.0.0\lib\netcore50\System.AppContext.dll
+C:\Users\tony\.nuget\packages\system.collections\4.0.10\lib\netcore50\System.Collections.dll
+C:\Users\tony\.nuget\packages\system.collections.concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll
+C:\Users\tony\.nuget\packages\system.collections.immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll
+C:\Users\tony\.nuget\packages\system.collections.nongeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll
+C:\Users\tony\.nuget\packages\system.collections.specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll
+C:\Users\tony\.nuget\packages\system.componentmodel\4.0.0\lib\netcore50\System.ComponentModel.dll
+C:\Users\tony\.nuget\packages\system.componentmodel.annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll
+C:\Users\tony\.nuget\packages\system.componentmodel.eventbasedasync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll
+C:\Users\tony\.nuget\packages\system.data.common\4.0.0\lib\dotnet\System.Data.Common.dll
+C:\Users\tony\.nuget\packages\system.diagnostics.contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll
+C:\Users\tony\.nuget\packages\system.diagnostics.debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll
+C:\Users\tony\.nuget\packages\system.diagnostics.stacktrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll
+C:\Users\tony\.nuget\packages\system.diagnostics.tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll
+C:\Users\tony\.nuget\packages\system.diagnostics.tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll
+C:\Users\tony\.nuget\packages\system.dynamic.runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll
+C:\Users\tony\.nuget\packages\system.globalization\4.0.10\lib\netcore50\System.Globalization.dll
+C:\Users\tony\.nuget\packages\system.globalization.calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll
+C:\Users\tony\.nuget\packages\system.globalization.extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll
+C:\Users\tony\.nuget\packages\system.io\4.0.10\lib\netcore50\System.IO.dll
+C:\Users\tony\.nuget\packages\system.io.compression\4.0.0\lib\netcore50\System.IO.Compression.dll
+C:\Users\tony\.nuget\packages\system.io.compression.clrcompression-x86\4.0.0\runtimes\win10-x86\native\ClrCompression.dll
+C:\Users\tony\.nuget\packages\system.io.compression.zipfile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll
+C:\Users\tony\.nuget\packages\system.io.filesystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll
+C:\Users\tony\.nuget\packages\system.io.filesystem.primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll
+C:\Users\tony\.nuget\packages\system.io.isolatedstorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll
+C:\Users\tony\.nuget\packages\system.io.unmanagedmemorystream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll
+C:\Users\tony\.nuget\packages\system.linq\4.0.0\lib\netcore50\System.Linq.dll
+C:\Users\tony\.nuget\packages\system.linq.expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll
+C:\Users\tony\.nuget\packages\system.linq.parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll
+C:\Users\tony\.nuget\packages\system.linq.queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll
+C:\Users\tony\.nuget\packages\system.net.http\4.0.0\lib\netcore50\System.Net.Http.dll
+C:\Users\tony\.nuget\packages\system.net.http.rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll
+C:\Users\tony\.nuget\packages\system.net.networkinformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll
+C:\Users\tony\.nuget\packages\system.net.primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll
+C:\Users\tony\.nuget\packages\system.net.requests\4.0.10\lib\dotnet\System.Net.Requests.dll
+C:\Users\tony\.nuget\packages\system.net.sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll
+C:\Users\tony\.nuget\packages\system.net.webheadercollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll
+C:\Users\tony\.nuget\packages\system.numerics.vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll
+C:\Users\tony\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\tony\.nuget\packages\system.objectmodel\4.0.10\lib\dotnet\System.ObjectModel.dll
+C:\Users\tony\.nuget\packages\system.private.datacontractserialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll
+C:\Users\tony\.nuget\packages\system.private.networking\4.0.0\lib\netcore50\System.Private.Networking.dll
+C:\Users\tony\.nuget\packages\system.private.servicemodel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll
+C:\Users\tony\.nuget\packages\system.private.uri\4.0.0\lib\netcore50\System.Private.Uri.dll
+C:\Users\tony\.nuget\packages\system.reflection\4.0.10\lib\netcore50\System.Reflection.dll
+C:\Users\tony\.nuget\packages\system.reflection.context\4.0.0\lib\netcore50\System.Reflection.Context.dll
+C:\Users\tony\.nuget\packages\system.reflection.dispatchproxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll
+C:\Users\tony\.nuget\packages\system.reflection.emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll
+C:\Users\tony\.nuget\packages\system.reflection.emit.ilgeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll
+C:\Users\tony\.nuget\packages\system.reflection.emit.lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll
+C:\Users\tony\.nuget\packages\system.reflection.extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll
+C:\Users\tony\.nuget\packages\system.reflection.metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll
+C:\Users\tony\.nuget\packages\system.reflection.primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll
+C:\Users\tony\.nuget\packages\system.reflection.typeextensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll
+C:\Users\tony\.nuget\packages\system.resources.resourcemanager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll
+C:\Users\tony\.nuget\packages\system.runtime\4.0.20\lib\netcore50\System.Runtime.dll
+C:\Users\tony\.nuget\packages\system.runtime.extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll
+C:\Users\tony\.nuget\packages\system.runtime.handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll
+C:\Users\tony\.nuget\packages\system.runtime.interopservices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll
+C:\Users\tony\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\tony\.nuget\packages\system.runtime.numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll
+C:\Users\tony\.nuget\packages\system.runtime.serialization.json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll
+C:\Users\tony\.nuget\packages\system.runtime.serialization.primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll
+C:\Users\tony\.nuget\packages\system.runtime.serialization.xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll
+C:\Users\tony\.nuget\packages\system.runtime.windowsruntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll
+C:\Users\tony\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\tony\.nuget\packages\system.security.claims\4.0.0\lib\dotnet\System.Security.Claims.dll
+C:\Users\tony\.nuget\packages\system.security.principal\4.0.0\lib\netcore50\System.Security.Principal.dll
+C:\Users\tony\.nuget\packages\system.servicemodel.duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll
+C:\Users\tony\.nuget\packages\system.servicemodel.http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll
+C:\Users\tony\.nuget\packages\system.servicemodel.nettcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll
+C:\Users\tony\.nuget\packages\system.servicemodel.primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll
+C:\Users\tony\.nuget\packages\system.servicemodel.security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll
+C:\Users\tony\.nuget\packages\system.text.encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll
+C:\Users\tony\.nuget\packages\system.text.encoding.codepages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll
+C:\Users\tony\.nuget\packages\system.text.encoding.extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll
+C:\Users\tony\.nuget\packages\system.text.regularexpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll
+C:\Users\tony\.nuget\packages\system.threading\4.0.10\lib\netcore50\System.Threading.dll
+C:\Users\tony\.nuget\packages\system.threading.overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll
+C:\Users\tony\.nuget\packages\system.threading.tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll
+C:\Users\tony\.nuget\packages\system.threading.tasks.dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll
+C:\Users\tony\.nuget\packages\system.threading.tasks.parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll
+C:\Users\tony\.nuget\packages\system.threading.timer\4.0.0\lib\netcore50\System.Threading.Timer.dll
+C:\Users\tony\.nuget\packages\system.xml.readerwriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll
+C:\Users\tony\.nuget\packages\system.xml.xdocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll
+C:\Users\tony\.nuget\packages\system.xml.xmldocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll
+C:\Users\tony\.nuget\packages\system.xml.xmlserializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll
+C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll
+C:\Users\tony\.nuget\packages\winrttriggers\1.6.0\lib\winrt45\WinRT.Triggers.dll
+C:\Users\tony\.nuget\packages\zxing.net\0.16.4\lib\uap10\zxing.dll
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.BussinessLayer\bin\x86\Debug\Infonet.CStoreCommander.BussinessLayer.dll
+F:\infonetpos\infonetpos-gui\ControlLib\bin\x86\Debug\Infonet.CStoreCommander.ControlLib.dll
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\bin\x86\Debug\Infonet.CStoreCommander.DataAccessLayer.dll
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.EntityLayer\bin\x86\Debug\Infonet.CStoreCommander.EntityLayer.dll
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.Logging\bin\x86\Debug\Infonet.CStoreCommander.Logging.dll
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.PeripheralLayer\bin\x86\Debug\Infonet.CStoreCommander.PeripheralLayer.dll
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.Utils\bin\x86\Debug\Infonet.CStoreCommander.Utils.dll
+F:\infonetpos\infonetpos-gui\MyToolkit\bin\Debug\MyToolkit.dll
+F:\infonetpos\infonetpos-gui\MyToolkit.Extended.Uwp\bin\x86\Debug\MyToolkit.Extended.dll
+C:\Users\tony\.nuget\packages\metrolog\1.0.1\lib\win81\MetroLog.WinRT.winmd
+C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.PeripheralLayer\bin\x86\Debug\PeripheralsComponent.winmd
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Assets\android-local-gas-station-512px.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Assets\SplashScreen.scale-200.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Assets\StoreLogo.scale-100.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Others\AckrooLogo.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Others\Mr-Gas-New-Card-WEB.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\MinusIcon.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Pumps\pump_2.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Pumps\pump_3.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Pumps\pump_4.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Pumps\pump_5.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\errorIndicator.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\Hamburger.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\backarrow.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\backbtn.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\Background.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\cardNumberIcon.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\coupon-number_Icon.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\greenArrow_108.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\greenArrow_80.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\plusicon.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Pumps\Gas-station-512px.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\logout.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\payments.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\reports.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\settings.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\White_payments.png
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\Others\Mr-Gas-New-Card-WEB.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\Burger.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\Candy.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\Chocolate.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\Coffee.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\Coke.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\Fries.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\HotDog.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\IceCream.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\HotCategories\PopCorn.jpg
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\SettingsMenu\Back.gif
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\New Bitmap Image.bmp
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Images\UtilityIcons\copyright.bmp
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Properties\Default.rd.xml
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling1.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling10.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling11.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling12.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling13.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling14.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling15.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling16.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling2.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling3.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling4.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling5.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling6.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling7.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling8.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\Calling9.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\CHIMES.WAV
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\DING.WAV
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\DOORBELL.WAV
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP1.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP10.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP11.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP12.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP13.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP14.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP15.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP16.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP2.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP3.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP4.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP5.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP6.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP7.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP8.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\HELP9.wav
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\RECYCLE.WAV
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\Sounds\RING.WAV
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Infonet.CStoreCommander.UI.xr.xml
+F:\infonetpos\infonetpos-gui\ControlLib\bin\x86\Debug\Infonet.CStoreCommander.ControlLib.xr.xml
+F:\infonetpos\infonetpos-gui\MyToolkit.Extended.Uwp\bin\x86\Debug\MyToolkit.Extended.xr.xml
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\App.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\AckrooAccoutBalance.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\AckrooTenderPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\BarCodeTextbox.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\CarwashPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\CheckoutOptions.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\EmergencyPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\EnvelopeNumberPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\FNGTRPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\FuelDiscountPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\GroupBox.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\GstPstTaxExemptPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\KickBackNumberPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\KickbackBalancePopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\LargePopupHeader.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\LoadingPage.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\MessagePopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\PopupWithTextBox.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\PurchaseOrderPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\QitePopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\ReasonList.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\NotificationPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\NumberPad.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\ProductDatatemplate.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\PumpDataTemplate.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\PopupWithTwoButtons.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\PumpOptions.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\ReturnsPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\SearchTextBox.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\SecondFrameHeading.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\SmallPopupHeader.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\TaxExemptionPopup.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\TenderDataTemplate.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Controls\ViewHeading.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\MainPage.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\CheckBoxStyle.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\CustomPivot.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\DatePicker.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\DisabledTextBoxStyle.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\GreenToggleSwitch.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\SplitViewStyle.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\Style.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Resources\TabStyleButton.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Ackroo\CardOperations\Ackroo.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Ackroo\CardOperations\AckrooBalance.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Ackroo\CardOperations\AckrooCardActivation.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Ackroo\CardOperations\AckrooIncreaseFund.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Ackroo\CardOperations\AckrooMenu.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Ackroo\CardOperations\AckrooSellCarwashUnits.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\BlankView.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\CashManager\CashTender.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\CashManager\TendersNumberPad.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\Carwash.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\FuelDiscountPolicies.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\GiveXTender.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\TaxExempt\AITE.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\TaxExempt\SignatureScreen.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\TaxExempt\SITE.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\TaxExempt\TaxExemptOverLimit.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\TaxExempt\OverrideLimit.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\TendersQuantityPad.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\VendorCoupon.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Common\Errors.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Common\MasterPage.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Customer\AddCustomer.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\AddItemByCode.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\DipInput\DipInput.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\GiveX\GivexReport.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\GiveX\GiveXReportGrid.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Login\TillClose.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Payments\Fleet.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Prepay\Prepay.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Prepay\PrepayNumberPad.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PaymentSource.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\Download.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\EP.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\PS.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\Receipt.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\Refund.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\TX.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PSInet\PSInetOptions\VP.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Finish.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\AddManual.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\BasePrice.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\Differences.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\FuelPriceQuantityPad.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\FuelPricing.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\GiveX\GiveX.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\Coupon.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\FleetCard.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\GiftCertificate.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\PaymentByGiveX.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\SalesSummary.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\StoreCredit.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Checkout\Tender.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Login\Freezed.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\CashManager\CashDraw.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\CashManager\CashDrop.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\CashManager\CashType.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Payments\AR.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Payments\Payment.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Payments\Payouts.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\FuelReport.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\Increments.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\PricesToDisplay.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\TaxExemptDifferences.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Fuel Pricing\TaxExemptIncrements.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Propane\AmountNumberPad.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\Propane\PropaneGrade.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reports\ReportOptions\FlashReport.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reports\ReportOptions\TillAuditReport.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reports\ReportOptions\Totals.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reports\ReportOptions\Report.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reports\ReportOptions\SalesCount.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reports\Reports.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reprint\LastPrint.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reprint\ReceiptPreview.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Reprint\Reprint.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\GiftCard.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\NumberpadForBottleItems.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\ReturnSaleItems.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\ReturnSale.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\UnsuspendSale.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Settings\MaintenanceOptions\Banking.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Customer\Customers.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Customer\LoyaltyCustomers.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\HomeScreen.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\LoginScreen.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\LogoutScreen.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Settings\Maintenance.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\BottleItems.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\BottleReturns.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\SetQuantityForHotCategories.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Products.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Sale\SaleGrid.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Settings\MaintenanceOptions\Policy.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Settings\MaintenanceOptions\ServicePump.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\ExtendedSplashScreen.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Settings\MaintenanceOptions\SwitchUserOrChangePassword.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Stock\AddStock.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Stock\PriceCheck.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\Stock\SearchStock.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\View\PumpOptions\TierLevel\TierLevel.xbf
+F:\infonetpos\infonetpos-gui\ControlLib\bin\x86\Debug\Themes\Generic.xbf
+F:\infonetpos\infonetpos-gui\MyToolkit.Extended.Uwp\bin\x86\Debug\Themes\Generic.xbf
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ActiveShifts.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SuspendSale.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Tills.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\LoginPolicy.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Login.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\HotCategories.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\InitializeNewSale.Json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddCustomer.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Customers.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SearchCustomers.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SetCustomerForSale.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddProduct.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AllTaxes.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\StockItems.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ReasonList.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\VoidSale.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Policy.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\HotProductPages.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\PasswordChange.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Bottles.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SwitchUser.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SuspendedSales.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\UnsuspendSale.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SaleList.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\VerifyStock.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddStockToSale.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ReturnSale.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetSaleBySaleNumber.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\RetunSaleItems.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GivexCardBalance.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GivexDeactivateCardBalance.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Logout.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllDepartments.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllTills.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SaleCountReport.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\FlashReport.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\CompleteCashDrop.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\CompleteCashDraw.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllTenders.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetCashButtons.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetCashDrawTypes.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ChangePrice.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\PriceCheck.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Messages.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\StockCode.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllShifts.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\TillAuditReport.json
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\UpdateTenderForCashdrop.json
+C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd
+F:\infonetpos\infonetpos-gui\Infonet.CStoreCommander.UI\bin\x86\Debug\Core\Infonet.CStoreCommander.UI.exe

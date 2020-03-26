@@ -1,0 +1,337 @@
+﻿<Page x:ConnectionId='1' x:Class="Infonet.CStoreCommander.UI.View.Sale.SaleGrid"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:toolsKit="using:MyToolkit.Controls"
+      xmlns:converter="using:Infonet.CStoreCommander.UI.Converter"
+      xmlns:controlLib="using:Infonet.CStoreCommander.ControlLib"
+      mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <Style TargetType="controlLib:GenericButton">
+            <Setter Property="BottomBackGroundColor"
+                    Value="{StaticResource ButtonBottomColor}" />
+            <Setter Property="HorizontalAlignment"
+                    Value="Left" />
+            <Setter Property="Margin"
+                    Value="0,0,9,0" />
+        </Style>
+
+        <Style TargetType="TextBlock"
+               x:Key="DataGridHeader">
+            <Setter Property="HorizontalAlignment"
+                    Value="Center" />
+            <Setter Property="FontSize"
+                    Value="12" />
+            <Setter Property="FontFamily"
+                    Value="Segoe UI SemiBold" />
+            <Setter Property="Foreground"
+                    Value="{StaticResource HeaderForegroundColor}" />
+        </Style>
+
+        <Style TargetType="TextBlock"
+               x:Key="SaleAndCustomerDetails">
+            <Setter Property="FontSize"
+                    Value="11" />
+            <Setter Property="Foreground"
+                    Value="{StaticResource LabelTextForegroundColor}" />
+            <Setter Property="FontWeight"
+                    Value="Medium" />
+        </Style>
+
+        <converter:CurrencyConverter x:Key="CurrencyConverter" />
+        <converter:BoolToVisibilityConverter x:Key="DeleteAllLineItems" />
+        <converter:NothingConverter x:Key="NothingConverter" />
+        <converter:DecimalToStringConverter x:Key="DecimalToStringConverter" />
+        <converter:AmountDisplayConverter x:Key="AmountDisplayConverter" />
+    </Page.Resources>
+
+    <Grid Margin="0,20,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--#region Data Grid-->
+        <toolsKit:DataGrid x:ConnectionId='2'                                                                   
+                           Background="{StaticResource BackgroundColor1Light}"
+                           HeaderBackground="{StaticResource HeaderBackgroundColor}"
+                           HeaderForeground="{StaticResource HeaderForegroundColor}"
+                                                                                                  
+                           IsDeleteEnabled="True"
+                           x:DeferLoadStrategy="Lazy"
+                           RowBackgroundEvenBrush="{StaticResource BackgroundColor1Dark}"
+                           RowBackgroundOddBrush="{StaticResource BackgroundColor1Light}"
+                           x:Name="GridSale"
+                           Visibility="Collapsed"
+                                                                                              
+                                                                                                                                        >
+
+            <toolsKit:DataGrid.Columns>
+                <toolsKit:DataGridTextColumn x:ConnectionId='14' Width="11*"
+                                             x:Name="txtStockCode"
+                                             FontSize="11"
+                                             IsEdit="True"
+                                             NumericKeyType="StockCodeNumber"
+                                             TextAlignment="Left"
+                                             Foreground="{StaticResource LabelTextForegroundColor}"
+                                             Edit="{Binding AllowStockCodeChange}"
+                                                                                                                
+                                             Binding="{Binding Code, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NothingConverter}}"
+                                             CanSort="False"
+                                             Style="{StaticResource DisabledTextBoxStyle}">
+                    <toolsKit:DataGridTextColumn.Header>
+                        <TextBlock x:ConnectionId='24' x:Uid="txtbCode"
+                                   x:Name="txtbCode"
+                                   Style="{StaticResource DataGridHeader}" />
+                    </toolsKit:DataGridTextColumn.Header>
+                </toolsKit:DataGridTextColumn>
+                <toolsKit:DataGridTextColumn Width="18*"
+                                             Binding="{Binding Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NothingConverter}}"
+                                             FontSize="11"
+                                             IsEdit="False"
+                                             Foreground="{StaticResource LabelTextForegroundColor}"
+                                             MaxCharacterLength="25"
+                                             TextAlignment="Left"
+                                             CanSort="False"
+                                             Style="{StaticResource DisabledTextBoxStyle}">
+                    <toolsKit:DataGridTextColumn.Header>
+                        <TextBlock x:ConnectionId='23' x:Uid="txtbDescription"
+                                   x:Name="txtbDescription"
+                                   Style="{StaticResource DataGridHeader}" />
+                    </toolsKit:DataGridTextColumn.Header>
+                </toolsKit:DataGridTextColumn>
+                <toolsKit:DataGridTextColumn x:ConnectionId='15' FontSize="11"
+                                             Width="7*"
+                                             MaxCharacterLength="7"
+                                             NumericKeyType="Amount"
+                                             InputScope="Number"
+                                             Binding="{Binding Quantity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NothingConverter}}"
+                                             Edit="{Binding AllowQuantityChange}"
+                                             Foreground="{StaticResource LabelTextForegroundColor}"
+                                             IsEdit="True"
+                                             TextAlignment="Center"
+                                                                                                                   
+                                             CanSort="False"
+                                             Style="{StaticResource DisabledTextBoxStyle}">
+                    <toolsKit:DataGridTextColumn.Header>
+                        <TextBlock x:ConnectionId='22' x:Uid="txtQuantity"
+                                   x:Name="txtQuantity"
+                                   Style="{StaticResource DataGridHeader}" />
+                    </toolsKit:DataGridTextColumn.Header>
+                </toolsKit:DataGridTextColumn>
+                <toolsKit:DataGridTextColumn x:ConnectionId='16' FontSize="11"
+                                             Width="7*"
+                                             MaxCharacterLength="10"
+                                             TextAlignment="Center"
+                                             NumericKeyType="Amount"
+                                             InputScope="Number"
+                                             Foreground="{StaticResource LabelTextForegroundColor}"
+                                             Binding="{Binding Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource NothingConverter}}"
+                                             Edit="{Binding AllowPriceChange}"
+                                             IsEdit="True"
+                                                                                                                
+                                             CanSort="False"
+                                             Style="{StaticResource DisabledTextBoxStyle}">
+                    <toolsKit:DataGridTextColumn.Header>
+                        <TextBlock x:ConnectionId='21' x:Uid="txtPrice"
+                                   x:Name="txtPrice"
+                                   Style="{StaticResource DataGridHeader}" />
+                    </toolsKit:DataGridTextColumn.Header>
+                </toolsKit:DataGridTextColumn>
+                <toolsKit:DataGridTextColumn x:ConnectionId='17' FontSize="11"
+                                             Width="7*"
+                                             TextAlignment="Center"
+                                             MaxCharacterLength="7"
+                                             NumericKeyType="Amount"
+                                             InputScope="Number"
+                                             Foreground="{StaticResource LabelTextForegroundColor}"
+                                             Binding="{Binding Discount, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                                             Edit="{Binding AllowDiscountChange}"
+                                             IsEdit="True"
+                                                                                                                   
+                                             CanSort="False"
+                                             Style="{StaticResource DisabledTextBoxStyle}">
+                    <toolsKit:DataGridTextColumn.Header>
+                        <TextBlock x:ConnectionId='20' x:Uid="txtDiscount"
+                                   x:Name="txtDiscount"
+                                   Style="{StaticResource DataGridHeader}" />
+                    </toolsKit:DataGridTextColumn.Header>
+                </toolsKit:DataGridTextColumn>
+                <toolsKit:DataGridTextColumn x:ConnectionId='18' x:Name="Column"
+                                             FontSize="11"
+                                             Width="7*"
+                                             TextAlignment="Center"
+                                             Foreground="{StaticResource LabelTextForegroundColor}"
+                                             Binding="{Binding Amount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                             IsEdit="False"
+                                             CanSort="False"
+                                             Style="{StaticResource DisabledTextBoxStyle}">
+                    <toolsKit:DataGridTextColumn.Header>
+                        <TextBlock x:ConnectionId='19' x:Uid="txtAmount"
+                                   x:Name="txtAmount"
+                                   Style="{StaticResource DataGridHeader}" />
+                    </toolsKit:DataGridTextColumn.Header>
+                </toolsKit:DataGridTextColumn>
+            </toolsKit:DataGrid.Columns>
+        </toolsKit:DataGrid>
+        <!--#endregion-->
+
+        <!--#region Sale Total And Customer Name-->
+        <Grid HorizontalAlignment="Stretch"
+              VerticalAlignment="Center"
+              Height="50"
+              Grid.Row="1"
+              Margin="0,10,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="280" />
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="7" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="7" />
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal"
+                            Grid.Row="1"
+                            Margin="0,0,0,6"
+                            VerticalAlignment="Top">
+                    <TextBlock FontWeight="Bold"
+                               Style="{StaticResource SaleAndCustomerDetails}"
+                               x:Uid="txtbSale" />
+                    <TextBlock x:ConnectionId='13'                                                   
+                               FontWeight="Bold"
+                               Style="{StaticResource SaleAndCustomerDetails}"
+                               Padding="2,0,0,0" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Top"
+                            Grid.Row="2">
+                    <TextBlock FontWeight="Bold"
+                               Style="{StaticResource SaleAndCustomerDetails}"
+                               x:Uid="txtbCustomer" />
+                    <TextBlock x:ConnectionId='12'                                                     
+                               Style="{StaticResource SaleAndCustomerDetails}"
+                               FontWeight="Normal"
+                               Padding="2,0,0,0" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1"
+                  Background="{StaticResource BackgroundColor1Light}">
+                <TextBlock x:ConnectionId='11'                                                          
+                           Style="{StaticResource SaleAndCustomerDetails}"
+                           VerticalAlignment="Center"
+                           FontWeight="Normal"
+                           TextWrapping="WrapWholeWords"
+                           Padding="10,0,5,0" />
+            </Grid>
+        </Grid>
+        <!--#endregion-->
+
+        <StackPanel HorizontalAlignment="Stretch"
+                    Grid.Row="2"
+                    Margin="0,0,0,10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <controlLib:GenericButton x:ConnectionId='7' x:Uid="btnCustomer"
+                                                                                                              
+                                          Margin="0,0,10,0"
+                                          Width="100" />
+
+                <controlLib:GenericButton x:ConnectionId='8' Grid.Column="1"
+                                          Margin="0,0,10,0"
+                                                                                                                 
+                                          Width="100">
+                    <TextBlock x:Uid="btnLoyalty"
+                               HorizontalAlignment="Left"
+                               FontSize="16"
+                               Foreground="{StaticResource ButtonForegroundColor}"
+                               TextWrapping="Wrap" />
+                </controlLib:GenericButton>
+
+
+                <Grid HorizontalAlignment="Right"
+                      Grid.Column="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="180" />
+                    </Grid.ColumnDefinitions>
+                    <Button x:ConnectionId='9'  Background="{StaticResource Red}"
+                             Height="50"
+                             Width="60"
+                             Margin="0,0,10,0"
+                             Content="&#xEA39;"
+                                                                                                                                           
+                             HorizontalAlignment="Stretch"
+                             FontFamily="Segoe MDL2 Assets"
+                             FontSize="18"
+                                                                                                 
+                             Style="{StaticResource ButtonWithNoBorder}"
+                             Foreground="White" />
+
+                    <Grid Background="{StaticResource BackgroundColor1Light}"
+                          Height="50"
+                          Grid.Column="1">
+                        <TextBlock x:ConnectionId='10'                                                                                                            
+                                   FontSize="28"
+                                   Margin="0,0,0,3"
+                                   Padding="0,0,18,0"
+                                   Foreground="{StaticResource LabelTextForegroundColor}"
+                                   VerticalAlignment="Center"
+                                   FontWeight="Normal"
+                                   HorizontalAlignment="Right" />
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <Border BorderBrush="{StaticResource HeaderBackgroundColor}"
+                    Margin="0,10,0,0"
+                    BorderThickness="0,1,0,0" />
+
+        </StackPanel>
+
+        <!--#region Tender And accept details button-->
+        <StackPanel  Grid.Row="3"
+                     Orientation="Horizontal">
+            <controlLib:GenericButton x:ConnectionId='4' x:Uid="btnOptions"
+                                      x:Name="btnOptions"
+                                      Width="100"
+                                                                                                                  />
+            <controlLib:GenericButton x:ConnectionId='5' x:Uid="btnDrawer"
+                                                                                                      
+                                                                                                      
+                                      Width="100" />
+            <controlLib:GenericButton x:ConnectionId='6' x:Uid="btnExactChange"
+                                                                                                   
+                                                                                                     
+                                      Width="120" />
+        </StackPanel>
+
+        <controlLib:GenericButton x:ConnectionId='3' x:Uid="btnAcceptTender"
+                                  Grid.Row="3"
+                                  Margin="0"
+                                  Width="180"
+                                                                                                    
+                                                                                               
+                                  HorizontalAlignment="Right"
+                                  BottomBackGroundColor="{StaticResource ButtonBottomConfirmationColor}" />
+
+        <!--#endregion-->
+
+
+    </Grid>
+</Page>
+
+
+
+

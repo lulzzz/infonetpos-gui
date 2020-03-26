@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Infonet MVCC\\UI\\MyToolkit.Extended.Uwp\\MyToolkit.Extended.Uwp.csproj": {}
+  },
+  "projects": {
+    "F:\\Infonet MVCC\\UI\\MyToolkit.Extended.Uwp\\MyToolkit.Extended.Uwp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Infonet MVCC\\UI\\MyToolkit.Extended.Uwp\\MyToolkit.Extended.Uwp.csproj",
+        "projectName": "MyToolkit.Extended.Uwp",
+        "projectPath": "F:\\Infonet MVCC\\UI\\MyToolkit.Extended.Uwp\\MyToolkit.Extended.Uwp.csproj",
+        "projectJsonPath": "F:\\Infonet MVCC\\UI\\MyToolkit.Extended.Uwp\\project.json",
+        "packagesPath": "C:\\Users\\tony\\.nuget\\packages\\",
+        "outputPath": "F:\\Infonet MVCC\\UI\\MyToolkit.Extended.Uwp\\obj\\",
+        "projectStyle": "ProjectJson",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "F:\\Infonet MVCC\\UI\\MyToolkit\\MyToolkit.csproj": {
+                "projectPath": "F:\\Infonet MVCC\\UI\\MyToolkit\\MyToolkit.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Infonet MVCC\\UI\\MyToolkit\\MyToolkit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Infonet MVCC\\UI\\MyToolkit\\MyToolkit.csproj",
+        "projectName": "MyToolkit",
+        "projectPath": "F:\\Infonet MVCC\\UI\\MyToolkit\\MyToolkit.csproj"
+      },
+      "frameworks": {
+        "portable45-net45+win8+wpa81": {}
+      }
+    }
+  }
+}

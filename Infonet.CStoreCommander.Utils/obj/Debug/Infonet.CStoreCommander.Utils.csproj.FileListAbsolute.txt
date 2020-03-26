@@ -1,0 +1,16 @@
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\bin\Debug\Infonet.CStoreCommander.Utils.dll
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\bin\Debug\Infonet.CStoreCommander.Utils.pdb
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\bin\Debug\Infonet.CStoreCommander.Utils.pri
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\Infonet.CStoreCommander.Utils.dll
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\Infonet.CStoreCommander.Utils.pdb
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\priconfig.xml
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\priconfig.xml.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\layout.resfiles
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\layout.resfiles.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\resources.resfiles
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\resources.resfiles.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\pri.resfiles
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\pri.resfiles.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\qualifiers.txt
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\qualifiers.txt.intermediate
+C:\Infonet 10122018\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Utils\obj\Debug\MultipleQualifiersPerDimensionFound.txt

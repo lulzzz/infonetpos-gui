@@ -1,0 +1,16 @@
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\bin\ARM\Release\Infonet.CStoreCommander.Logging.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\bin\ARM\Release\Infonet.CStoreCommander.Logging.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\bin\ARM\Release\Infonet.CStoreCommander.Logging.pri
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\Infonet.CStoreCommander.Logging.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\Infonet.CStoreCommander.Logging.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\priconfig.xml
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\priconfig.xml.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\layout.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\layout.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\resources.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\resources.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\pri.resfiles
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\pri.resfiles.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\qualifiers.txt
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\qualifiers.txt.intermediate
+C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.Logging\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt

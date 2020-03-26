@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ko"
+"ResourceDimensions"		"language-ko-kr"
+
+[Files]
+"C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\obj\x86\Debug\split.language-ko.pri"			"resources.pri"

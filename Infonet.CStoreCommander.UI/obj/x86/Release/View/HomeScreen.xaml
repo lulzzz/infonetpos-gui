@@ -1,0 +1,745 @@
+﻿<Page x:ConnectionId='1' xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Infonet.CStoreCommander.UI.View"
+      xmlns:controls="using:Infonet.CStoreCommander.UI.Controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:converters="using:Infonet.CStoreCommander.UI.Converter"
+      xmlns:ViewModel="using:Infonet.CStoreCommander.UI.ViewModel"
+      xmlns:data="using:Infonet.CStoreCommander.UI.Model"
+      x:Class="Infonet.CStoreCommander.UI.View.HomeScreen"
+      xmlns:i="using:Microsoft.Xaml.Interactivity"
+      xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:triggers="using:WinRT.Triggers"
+      xmlns:trigger="using:Infonet.CStoreCommander.UI.Trigger"
+      mc:Ignorable="d">
+
+    <!--#region Resources-->
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Resources/SplitViewStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+            <converters:BoolToPassswordVisibilityConverter x:Key="BoolToPassswordVisibilityConverter" />
+
+            <Style TargetType="Button"
+                   x:Key="SplitViewPaneButtonStyle"
+                   BasedOn="{StaticResource ButtonWithLessOpacityInDisableState}">
+                <Setter Property="FontFamily"
+                        Value="Segoe MDL2 Assets" />
+                <Setter Property="Background"
+                        Value="Transparent" />
+                <Setter Property="Height"
+                        Value="35" />
+                <Setter Property="Width"
+                        Value="50" />
+            </Style>
+
+            <Style TargetType="TextBlock"
+                   x:Key="SplitViewMenuTillAndShift">
+                <Setter Property="FontSize"
+                        Value="16" />
+                <Setter Property="VerticalAlignment"
+                        Value="Center" />
+                <Setter Property="HorizontalAlignment"
+                        Value="Center" />
+                <Setter Property="Height"
+                        Value="48" />
+                <Setter Property="Padding"
+                        Value="0,14,0,0" />
+                <Setter Property="Foreground"
+                        Value="{StaticResource LabelTextForegroundColor}" />
+            </Style>
+
+            <Style TargetType="Button"
+                   x:Key="SplitViewMenutxtblock"
+                   BasedOn="{StaticResource ButtonWithLessOpacityInDisableState}">
+                <Setter Property="Background"
+                        Value="Transparent" />
+                <Setter Property="FontSize"
+                        Value="16" />
+                <Setter Property="VerticalAlignment"
+                        Value="Center" />
+                <Setter Property="VerticalContentAlignment"
+                        Value="Top" />
+                <Setter Property="Padding"
+                        Value="18,0,0,0" />
+                <Setter Property="Height"
+                        Value="40" />
+                <Setter Property="HorizontalContentAlignment"
+                        Value="Left" />
+                <Setter Property="Width"
+                        Value="240" />
+                <Setter Property="Foreground"
+                        Value="{StaticResource LabelTextForegroundColor}" />
+            </Style>
+
+            <Style TargetType="Button"
+                   BasedOn="{StaticResource ButtonWithCornerRadius}"
+                   x:Key="EmergencyButtonStyle">
+                <Setter Property="Height"
+                        Value="50" />
+                <Setter Property="Width"
+                        Value="80" />
+                <Setter Property="FontSize"
+                        Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+    <!--#endregion-->
+
+    <Grid x:ConnectionId='2' x:Name="RootGrid">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <trigger:EqualsStateTrigger x:ConnectionId='6'                                                        
+                                                    EqualTo="Shift" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="txtSettingMenuShift.FontSize"
+                                Value="16" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <trigger:EqualsStateTrigger x:ConnectionId='5'                                                       
+                                                    EqualTo="Quart de travail" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="txtSettingMenuShift.FontSize"
+                                Value="14" />
+                        <Setter Target="txtSettingMenuShift.Padding"
+                                Value="0,8,0,0" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <trigger:EqualsStateTrigger x:ConnectionId='4'                                                 
+                                                    EqualTo="Shift Date:" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="btnShiftDate.FontSize"
+                                Value="16" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <trigger:EqualsStateTrigger x:ConnectionId='3'                                                 
+                                                    EqualTo="Date de changement:" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="btnShiftDate.FontSize"
+                                Value="14" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <i:Interaction.Behaviors>
+            <ic:EventTriggerBehavior EventName="Tapped">
+                <ic:InvokeCommandAction x:ConnectionId='7'                                                                 />
+            </ic:EventTriggerBehavior>
+        </i:Interaction.Behaviors>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--#region Row 0-->
+        <Grid x:ConnectionId='8' x:Name="pumps"
+              Background="Transparent"
+              Padding="0"
+              Margin="0,0,0,5"
+                                                                                                                                   >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+
+            <!--#region Pumps-->
+            <GridView x:ConnectionId='68'                                                             
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                      Padding="10,10,0,0"
+                      x:Name="pumpsTemplate"
+                      ScrollViewer.VerticalScrollMode="Auto">
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <controls:PumpDataTemplate PumpInteractionCommand="{Binding DataContext.PumpInteractionCommand,ElementName=RootGrid}"
+                                                   AddBasketCommand="{Binding DataContext.AddBasketCommand,ElementName=RootGrid}" />
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+                <GridView.ItemContainerStyle>
+                    <Style TargetType="GridViewItem">
+                        <Setter Property="Margin"
+                                Value="0,0,3,3" />
+                    </Style>
+                </GridView.ItemContainerStyle>
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VariableSizedWrapGrid VerticalAlignment="Top"
+                                               MaximumRowsOrColumns="{Binding NumberOfPumpsInARow, Mode=OneWay}"
+                                               Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+            </GridView>
+            <!--#endregion-->
+
+            <!--#region Big Pump-->
+            <Border x:ConnectionId='69' BorderBrush="{StaticResource LightWhite}"
+                    Height="224"
+                    Width="220"
+                    HorizontalAlignment="Right"
+                                                                                                                                         
+                    Margin="0,10,3,3"
+                    BorderThickness="1">
+                <Grid CornerRadius="2"
+                      Height="224"
+                      Width="220"
+                      HorizontalAlignment="Right">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid VerticalAlignment="Top"
+                          Height="144"
+                          Width="220"
+                          HorizontalAlignment="Left"
+                          Background="{StaticResource LightGreen}">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <!--<TextBlock Text="1"
+                               Foreground="{StaticResource LightWhite}"
+                               FontSize="45"
+                               Padding="10,0,0,0"
+                               HorizontalAlignment="Left"/>-->
+
+                        <Image x:ConnectionId='77' x:Name="pumpImage"
+                               Stretch="Fill"
+                               Source="ms-appx:///Images/Pumps/pump_4.png"
+                               Margin="0,7,10,5"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Top"
+                               Height="44"
+                               Width="50" />
+
+
+                        <TextBlock x:ConnectionId='78'                                                            
+                                   FontSize="24"
+                                   Grid.Row="2"
+                                   FontFamily="Segoe UI Regular"
+                                   Margin="0,10,0,0"
+                                   Padding="15,6,0,0"
+                                   HorizontalAlignment="Left"
+                                   Foreground="{StaticResource LightWhite}" />
+
+                    </Grid>
+
+                    <Button x:ConnectionId='76' Background="{StaticResource LightGray}"
+                            x:Name="control"
+                            Width="220"
+                            Height="80"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Stretch"
+                            Grid.Row="1"
+                            FontSize="18"
+                            Foreground="{StaticResource LightWhite}"
+                                                                                       
+                            Margin="0,1,0,0" />
+
+                </Grid>
+            </Border>
+            <!--#endregion-->
+
+            <!--#region Emergency And pump options button-->
+            <StackPanel Grid.Column="1"
+                        HorizontalAlignment="Right"
+                        Padding="10,10,8,0">
+                <Button x:ConnectionId='70' Background="{StaticResource Red}"
+                        x:Name="btnEmergency"
+                        x:Uid="btnEmergency"
+                        FontFamily="Segoe UI Semibold"
+                        Padding="5,0,0,8"
+                        VerticalContentAlignment="Bottom"
+                        Margin="0,0,0,10"
+                        Foreground="{StaticResource LightWhite}"
+                        FontWeight="Bold"
+                        Style="{StaticResource EmergencyButtonStyle}">
+                    <triggers:Interactions.Triggers>
+                        <triggers:EventTrigger EventName="Tapped">
+                            <triggers:InvokeCommandAction x:ConnectionId='75'                                                                       
+                                                          PassEventArgsToCommand="True" />
+                        </triggers:EventTrigger>
+                    </triggers:Interactions.Triggers>
+                </Button>
+                <Button x:ConnectionId='71' Background="{StaticResource LightWhite}"
+                        VerticalAlignment="Bottom"
+                        Margin="0"
+                                                                                              
+                        Style="{StaticResource EmergencyButtonStyle}">
+                    <triggers:Interactions.Triggers>
+                        <triggers:EventTrigger EventName="Tapped">
+                            <triggers:InvokeCommandAction x:ConnectionId='74'                                                                         
+                                                          PassEventArgsToCommand="True" />
+                        </triggers:EventTrigger>
+                    </triggers:Interactions.Triggers>
+                    <TextBlock x:Uid="txtPumpOptions"
+                               Padding="5,0,0,8"
+                               HorizontalAlignment="Left"
+                               FontFamily="Segoe UI Semibold"
+                               FontSize="10"
+                               Foreground="{StaticResource LightBlack}"
+                               FontWeight="Bold"
+                               TextWrapping="Wrap" />
+                </Button>
+                <Button x:ConnectionId='72' Background="{StaticResource Red}"
+                        FontFamily="Segoe UI Semibold"
+                        Padding="5,0,0,8"
+                        Margin="0,10,0,0"
+                        VerticalContentAlignment="Bottom"
+                        Foreground="{StaticResource LightWhite}"
+                        FontWeight="Bold"
+                                                                                                                                                          
+                        Style="{StaticResource EmergencyButtonStyle}">
+                    <TextBlock x:Uid="btnLogoutFuelOnly"
+                               TextWrapping="Wrap" />
+                    <triggers:Interactions.Triggers>
+                        <triggers:EventTrigger EventName="Tapped">
+                            <triggers:InvokeCommandAction x:ConnectionId='73'                                                           
+                                                          PassEventArgsToCommand="True" />
+                        </triggers:EventTrigger>
+                    </triggers:Interactions.Triggers>
+                </Button>
+            </StackPanel>
+            <!--#endregion-->
+
+
+        </Grid>
+        <!--#endregion-->
+
+        <!--#region Row 1-->
+
+        <SplitView x:ConnectionId='9'                                                                                                                      
+                   DisplayMode="CompactOverlay"
+                   Grid.Row="1"
+                   Background="{StaticResource ExtraWhite}"
+                                                                             
+                                                                            
+                   CompactPaneLength="50"
+                   Style="{StaticResource SplitViewStyle}">
+
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="240" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Background="{StaticResource BackgroundColor1Light}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+
+                        <Button x:ConnectionId='53' Height="50"
+                                Foreground="{StaticResource DarkGray}"
+                                                                                                     
+                                Style="{StaticResource SplitViewPaneButtonStyle}">
+                            <Image Source="/Images/SettingsMenu/Hamburger.png"
+                                   Stretch="None" />
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='64'                                                                    
+                                                                  PassEventArgsToCommand="True" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                        <Button x:ConnectionId='54' Grid.Row="1"
+                                Style="{StaticResource SplitViewPaneButtonStyle}"
+                                                                                                     
+                                Margin="0,7,0,0">
+                            <Image Source="/Images/SettingsMenu/reports.png"
+                                   Stretch="None" />
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='63'                                                                
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                        <Button x:ConnectionId='55' Grid.Row="2"
+                                                                                              
+                                Style="{StaticResource SplitViewPaneButtonStyle}"
+                                Margin="0,14,0,0">
+                            <Image Source="/Images/SettingsMenu/payments.png"
+                                   Stretch="None" />
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='62'                                                                       
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                        <Button x:ConnectionId='56' Grid.Row="3"
+                                Style="{StaticResource SplitViewPaneButtonStyle}"
+                                                                                                     
+                                Margin="0,7,0,0">
+                            <Image Source="/Images/SettingsMenu/settings.png"
+                                   Stretch="None" />
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='61'                                                                          
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                        <Button x:ConnectionId='57'  Grid.Row="4"
+                                 Style="{StaticResource SplitViewPaneButtonStyle}"
+                                                                                              
+                                 Margin="0,14,0,0">
+                            <Image Source="/Images/SettingsMenu/logout.png"
+                                   Stretch="None" />
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='60'                                                           
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                        <Button x:ConnectionId='58' Grid.Row="5"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,0,10"
+                                                                                                                                                             
+                                Style="{StaticResource SplitViewPaneButtonStyle}">
+                            <Image Source="/Images/SettingsMenu/errorIndicator.png"
+                                   Stretch="None" />
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='59'                                                               
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                    </Grid>
+
+
+                    <Grid Background="{StaticResource BackgroundColor2}"
+                          Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock x:Uid="txtTill"
+                                       Style="{StaticResource SplitViewMenuTillAndShift}" />
+                            <Border Background="{StaticResource LightGray}"
+                                    Grid.Column="1">
+                                <TextBlock x:ConnectionId='52'                                               
+                                           Style="{StaticResource SplitViewMenuTillAndShift}" />
+                            </Border>
+                            <TextBlock x:ConnectionId='50' x:Uid="txtSettingMenuShift"
+                                       x:Name="txtSettingMenuShift"
+                                       Grid.Column="2"
+                                       TextWrapping="Wrap"
+                                       Style="{StaticResource SplitViewMenuTillAndShift}" />
+                            <Border Background="{StaticResource LightGray}"
+                                    Grid.Column="3">
+                                <TextBlock x:ConnectionId='51'                                                
+                                           Style="{StaticResource SplitViewMenuTillAndShift}" />
+                            </Border>
+                        </Grid>
+
+                        <Button x:Uid="btnReports"
+                                Grid.Row="1"
+                                Margin="0,10,0,0"
+                                Style="{StaticResource SplitViewMenutxtblock}">
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='49'                                                                
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+
+                        <Button x:ConnectionId='38' x:Uid="btnPayments"
+                                Grid.Row="2"
+                                Margin="0,7,0,0"
+                                                                                              
+                                                                                                      
+                                Style="{StaticResource SplitViewMenutxtblock}">
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='48'                                                                       
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+
+                        <Button x:ConnectionId='39' x:Uid="btnMaintenance"
+                                Grid.Row="3"
+                                Margin="0,3,0,0"
+                                                                                                          
+                                CommandParameter="{Binding ElementName=button}"
+                                Style="{StaticResource SplitViewMenutxtblock}">
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='47'                                                                          
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+
+                        <Button x:Uid="btnLogout"
+                                Grid.Row="4"
+                                Margin="0,8,0,0"
+                                Style="{StaticResource SplitViewMenutxtblock}">
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='46'                                                           
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+
+                        <Button x:ConnectionId='40'                                                                                                                                 
+                                Grid.Row="5"
+                                x:Name="btnShiftDate"
+                                Margin="0,3,0,0"
+                                Style="{StaticResource SplitViewMenutxtblock}">
+                            <TextBlock TextWrapping="Wrap">
+                                <Run x:ConnectionId='44' x:Uid="ShiftDate"
+                                     x:Name="txtShiftDate" />
+                                <Run x:ConnectionId='45'                                                     />
+                            </TextBlock>
+                        </Button>
+
+                        <Button x:ConnectionId='41'                                                             
+                                Grid.Row="6"
+                                Margin="0,8,0,0"
+                                Style="{StaticResource SplitViewMenutxtblock}" />
+
+                        <Button x:ConnectionId='42' x:Uid="btnShowError"
+                                Grid.Row="7"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,0,1"
+                                                                                                                                                             
+                                Foreground="{StaticResource Red}"
+                                Style="{StaticResource SplitViewMenutxtblock}">
+                            <triggers:Interactions.Triggers>
+                                <triggers:EventTrigger EventName="Tapped">
+                                    <triggers:InvokeCommandAction x:ConnectionId='43'                                                               
+                                                                  PassEventArgsToCommand="False" />
+                                </triggers:EventTrigger>
+                            </triggers:Interactions.Triggers>
+                        </Button>
+                    </Grid>
+
+
+                </Grid>
+            </SplitView.Pane>
+
+            <Grid x:ConnectionId='65' x:Name="ParentFrameGrid"
+                  Background="{StaticResource BackgroundColor2}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="552*" />
+                    <ColumnDefinition Width="412*" />
+                </Grid.ColumnDefinitions>
+
+                <Frame x:ConnectionId='66' x:Name="frmFirst"
+                       HorizontalAlignment="Stretch"
+                       VerticalAlignment="Stretch"
+                       Margin="10,0,20,21" />
+
+                <Frame x:ConnectionId='67' x:Name="frmSecond"
+                       Margin="0,0,10,21"
+                       HorizontalAlignment="Stretch"
+                       VerticalAlignment="Stretch"
+                       Grid.Column="1" />
+            </Grid>
+
+        </SplitView>
+
+        <Grid x:ConnectionId='10' Grid.Row="1"
+              x:Name="gdFrameContainer">
+            <Popup x:ConnectionId='11' x:Name="ConfirmationPopup"
+                                                                                                   >
+                <controls:PopupWithTwoButtons x:ConnectionId='37'                                                                     
+                                              Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}"
+                                                                                                                                              
+                                                                                                                                              
+                                                                                                                             
+                                                                                                                   
+                                                                                                                             
+                                                                                                                               
+                                                                                                                                         
+                                                                                                                                                 />
+            </Popup>
+
+            <Popup x:ConnectionId='12' x:Name="PumpEmergencyPopup"
+                                                                                                >
+                <controls:EmergencyPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                         Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <!--#region Error Popup-->
+            <Popup x:ConnectionId='13' x:Name="AlertPopup"
+                                                                                            >
+                <controls:NotificationPopup x:ConnectionId='36' Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                            Width="{Binding ActualWidth, ElementName=gdFrameContainer}"
+                                                                                                             
+                                                                                                               
+                                                                                                                                 
+                                                                                                          />
+            </Popup>
+            <!--#endregion-->
+
+            <Popup x:ConnectionId='14' x:Name="ReasonPopup"
+                                                                                             >
+                <controls:ReasonList x:ConnectionId='35' Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                     Width="{Binding ActualWidth, ElementName=gdFrameContainer}"
+                                                                                                     
+                                                                                                                      />
+            </Popup>
+
+
+            <Popup x:ConnectionId='15' x:Name="CheckoutOptionsOpen"
+                                                                                                 >
+                <controls:CheckoutOptions Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                          Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='16' x:Name="ReturnsPopupOpen"
+                                                                                              >
+                <controls:ReturnsPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                       Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='17' x:Name="EnvelopePopup"
+                                                                                          >
+                <controls:EnvelopeNumberPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='18' x:Name="TreatyNumberPopup"
+                                                                                             >
+                <controls:GstPstTaxExemptPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                               Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='19' x:Name="QitePopup"
+                                                                                           >
+                <controls:QitePopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                    Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+
+            <Popup x:ConnectionId='20' x:Name="MessagePopup"
+                                                                                              >
+                <controls:MessagePopup x:ConnectionId='34' Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                       Width="{Binding ActualWidth, ElementName=gdFrameContainer}"
+                                                                                                      
+                                                                                                                    />
+            </Popup>
+
+            <Popup x:ConnectionId='21' x:Name="purchaseOrderPopup"
+                                                                                                    >
+                <controls:PurchaseOrderPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                             Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='22' x:Name="pumpOptionsPopup"
+                                                                                                  >
+                <controls:PumpOptions x:ConnectionId='33' Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                                                                                                    
+                                      Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='23' x:Name="popupWithTextBoxFleet"
+                                                                                                  >
+                <controls:PopupWithTextBox x:ConnectionId='32' Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                                                                                                                                                                                
+                                           Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='24' x:Name="taxExemptionNumberpopup"
+                                                                                                   >
+                <controls:TaxExemptionPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                            Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='25' x:Name="FNGTRPopup"
+                                                                                            >
+                <controls:FNGTRPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                     Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='26' x:Name="KickbackBalancePopup"
+                                                                                                      >
+                <controls:KickbackBalancePopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                        Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+
+            <Popup x:ConnectionId='27' x:Name="KickbackNumberPopup"
+                                                                                                     >
+                <controls:KickBackNumberPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+            <Popup x:ConnectionId='28' x:Name="AckTenderPopup" 
+                                                                                              >
+                <controls:AckrooTenderPopup   Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+            <Popup x:ConnectionId='29' x:Name="AckBalancePopup" 
+                                                                                              >
+                <controls:AckrooAccoutBalance   Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+            <Popup x:ConnectionId='30' x:Name="CarwashPopup"
+                                                                                              >
+                <controls:CarwashPopup Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+            <Popup x:ConnectionId='31' x:Name="FuelDiscountPopup" 
+                                                                                                   >
+                <controls:FuelDiscountPopup   Height="{Binding ActualHeight, ElementName=gdFrameContainer}"
+                                              Width="{Binding ActualWidth, ElementName=gdFrameContainer}" />
+            </Popup>
+        </Grid>
+
+        <!--#endregion-->
+    </Grid>
+
+</Page>
+

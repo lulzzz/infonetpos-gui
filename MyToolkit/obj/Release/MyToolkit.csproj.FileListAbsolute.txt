@@ -1,0 +1,12 @@
+C:\Infonet_final\build\Output\MyToolkit\MyToolkit.xml
+C:\Infonet_final\build\Output\MyToolkit\MyToolkit.dll
+C:\Infonet_final\build\Output\MyToolkit\MyToolkit.pdb
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Release\MyToolkit.csprojResolveAssemblyReference.cache
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Release\MyToolkit.dll
+C:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Release\MyToolkit.pdb
+F:\Infonet_final\build\Output\MyToolkit\MyToolkit.xml
+F:\Infonet_final\build\Output\MyToolkit\MyToolkit.dll
+F:\Infonet_final\build\Output\MyToolkit\MyToolkit.pdb
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Release\MyToolkit.csproj.CoreCompileInputs.cache
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Release\MyToolkit.dll
+F:\Infonet_final\InfonetUI-UWP_Dev\MyToolkit\obj\Release\MyToolkit.pdb

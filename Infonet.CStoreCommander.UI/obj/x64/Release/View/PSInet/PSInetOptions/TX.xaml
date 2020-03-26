@@ -1,0 +1,112 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions.TX"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Infonet.CStoreCommander.UI.View.PSInet.PSInetOptions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:customControl="using:MyToolkit.Extended.Controls"
+    xmlns:controlLib="using:Infonet.CStoreCommander.ControlLib"
+    xmlns:conv="using:Infonet.CStoreCommander.UI.Converter"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background"
+                    Value="{StaticResource ButtonBackgroundColor}" />
+            <Setter Property="FontSize"
+                    Value="16" />
+            <Setter Property="Height"
+                    Value="42" />
+            <Setter Property="Foreground"
+                    Value="{StaticResource ButtonForegroundColor}" />
+            <Setter Property="Padding"
+                    Value="8,0,8,0" />
+            <Setter Property="Margin"
+                    Value="20,18,0,0" />
+            <Setter Property="VerticalAlignment"
+                    Value="Top" />
+            
+        </Style>
+        <conv:ObjectToObjectConverter x:Key="ObjectToObjectConverter"/>
+        <conv:CurrencyConverter x:Key="CurrencyConverter" />
+        <conv:BoolToVisibilityConverter x:Key="DisplayAmount" />
+        <conv:NothingConverter x:Key="NothingConverter" />
+        <conv:DecimalToStringConverter x:Key="DecimalToStringConverter" />
+        <conv:AmountDisplayConverter x:Key="AmountDisplayConverter" />
+    </Page.Resources>
+    <StackPanel Orientation="Vertical">
+        <TextBlock FontSize="16" x:Uid="txtPSPhoneNumberLbl"  FontWeight="Bold" Margin="32,20,0,0"/>
+        <customControl:CustomTextBox x:ConnectionId='2' Text="{Binding PhoneNumber, Mode=TwoWay,  Converter={StaticResource NothingConverter}}"
+                                     HorizontalAlignment="Left"
+                                     VerticalAlignment="Center"
+                                     Width="570"
+                                     Height="30"
+                                     FontSize="12"
+                                     
+                                     Style="{StaticResource TextBox}"
+                                     x:Name="txtPhone"
+                                     Margin="32,10,0,0">
+            <i:Interaction.Behaviors>
+                <ic:EventTriggerBehavior EventName="GotFocus">
+                    <ic:InvokeCommandAction x:ConnectionId='10'                                                                       />
+                </ic:EventTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </customControl:CustomTextBox>
+        <TextBlock FontSize="16" x:Uid="txtPSReEnterPhoneLbl"  
+                   FontWeight="Bold" Margin="32,20,0,0"/>
+        <customControl:CustomTextBox x:ConnectionId='3' Text="{Binding PhoneNumber2, Mode=TwoWay,  Converter={StaticResource NothingConverter}}"
+                                     HorizontalAlignment="Left"
+                                     VerticalAlignment="Center"
+                                     Width="570"
+                                     Height="30"
+                                     FontSize="12"
+                                     
+                                     Style="{StaticResource TextBox}"
+                                     x:Name="txtPhone2"
+                                     Margin="32,10,0,0">
+            <i:Interaction.Behaviors>
+                <ic:EventTriggerBehavior EventName="GotFocus">
+                    <ic:InvokeCommandAction x:ConnectionId='9'                                                                       />
+                </ic:EventTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </customControl:CustomTextBox>
+        <TextBlock x:ConnectionId='4' FontSize="16"                                                          
+                   FontWeight="Bold" Margin="32,20,0,0"/>
+        <customControl:CustomTextBox x:ConnectionId='5' Text="{Binding AMT, Mode=TwoWay,  Converter={StaticResource NothingConverter}}"
+                                     HorizontalAlignment="Left"
+                                     VerticalAlignment="Center"
+                                     Width="570"
+                                     Height="30"
+                                     FontSize="12"
+                                     
+                                     Style="{StaticResource TextBox}"
+                                     Visibility="{Binding DisplayAmount,Mode=OneWay,Converter={StaticResource DisplayAmount}}"
+                                     x:Name="PSAmount"
+                                     Margin="32,10,0,0">
+            <i:Interaction.Behaviors>
+                <ic:EventTriggerBehavior EventName="GotFocus">
+                    <ic:InvokeCommandAction x:ConnectionId='8'                                                                       />
+                </ic:EventTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </customControl:CustomTextBox>
+        <controlLib:GenericButton x:ConnectionId='6' 
+                                          Margin="32,20,0,10"
+                                          Width="160"
+                                                                                                              
+                                          IsEnabled="True"
+                                         BottomBackGroundColor="{StaticResource ButtonBottomConfirmationColor}"
+            >
+            
+            <TextBlock  x:Uid="btnActivateCard"
+                               HorizontalAlignment="Left"
+                               FontSize="16"
+                               Foreground="{StaticResource ButtonForegroundColor}"
+                               TextWrapping="Wrap" />
+        </controlLib:GenericButton>
+        <TextBlock x:ConnectionId='7' Margin="32,20,0,10" FontSize="16" Foreground="DarkBlue"                                                      />
+    </StackPanel>
+</Page>
+

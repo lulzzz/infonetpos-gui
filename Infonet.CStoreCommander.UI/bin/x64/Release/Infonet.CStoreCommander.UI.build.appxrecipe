@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TONY</Machine>
+    <WindowsUser>Tony</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>865f7950-ead5-4a35-ad91-b60778bba88d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Tony</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\android-local-gas-station-512px.png">
+      <PackagePath>Assets\android-local-gas-station-512px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\Burger.jpg">
+      <PackagePath>Images\HotCategories\Burger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\Candy.jpg">
+      <PackagePath>Images\HotCategories\Candy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\Chocolate.jpg">
+      <PackagePath>Images\HotCategories\Chocolate.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\Coffee.jpg">
+      <PackagePath>Images\HotCategories\Coffee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\Coke.jpg">
+      <PackagePath>Images\HotCategories\Coke.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\Fries.jpg">
+      <PackagePath>Images\HotCategories\Fries.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\HotDog.jpg">
+      <PackagePath>Images\HotCategories\HotDog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\IceCream.jpg">
+      <PackagePath>Images\HotCategories\IceCream.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\MinusIcon.png">
+      <PackagePath>Images\HotCategories\MinusIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\HotCategories\PopCorn.jpg">
+      <PackagePath>Images\HotCategories\PopCorn.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Others\AckrooLogo.png">
+      <PackagePath>Images\Others\AckrooLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Others\Mr-Gas-New-Card-WEB.jpg">
+      <PackagePath>Images\Others\Mr-Gas-New-Card-WEB.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Others\Mr-Gas-New-Card-WEB.png">
+      <PackagePath>Images\Others\Mr-Gas-New-Card-WEB.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Pumps\Gas-station-512px.png">
+      <PackagePath>Images\Pumps\Gas-station-512px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Pumps\pump_2.png">
+      <PackagePath>Images\Pumps\pump_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Pumps\pump_3.png">
+      <PackagePath>Images\Pumps\pump_3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Pumps\pump_4.png">
+      <PackagePath>Images\Pumps\pump_4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\Pumps\pump_5.png">
+      <PackagePath>Images\Pumps\pump_5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\Back.gif">
+      <PackagePath>Images\SettingsMenu\Back.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\errorIndicator.png">
+      <PackagePath>Images\SettingsMenu\errorIndicator.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\Hamburger.png">
+      <PackagePath>Images\SettingsMenu\Hamburger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\logout.png">
+      <PackagePath>Images\SettingsMenu\logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\payments.png">
+      <PackagePath>Images\SettingsMenu\payments.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\reports.png">
+      <PackagePath>Images\SettingsMenu\reports.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\SettingsMenu\settings.png">
+      <PackagePath>Images\SettingsMenu\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\backarrow.png">
+      <PackagePath>Images\UtilityIcons\backarrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\backbtn.png">
+      <PackagePath>Images\UtilityIcons\backbtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\Background.png">
+      <PackagePath>Images\UtilityIcons\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\cardNumberIcon.png">
+      <PackagePath>Images\UtilityIcons\cardNumberIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\copyright.bmp">
+      <PackagePath>Images\UtilityIcons\copyright.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\coupon-number_Icon.png">
+      <PackagePath>Images\UtilityIcons\coupon-number_Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\greenArrow_108.png">
+      <PackagePath>Images\UtilityIcons\greenArrow_108.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\greenArrow_80.png">
+      <PackagePath>Images\UtilityIcons\greenArrow_80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\New Bitmap Image.bmp">
+      <PackagePath>Images\UtilityIcons\New Bitmap Image.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\plusicon.png">
+      <PackagePath>Images\UtilityIcons\plusicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Images\UtilityIcons\White_payments.png">
+      <PackagePath>Images\UtilityIcons\White_payments.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ActiveShifts.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ActiveShifts.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddCustomer.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddCustomer.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddProduct.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddProduct.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddStockToSale.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AddStockToSale.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AllTaxes.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\AllTaxes.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Bottles.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Bottles.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ChangePrice.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ChangePrice.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\CompleteCashDraw.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\CompleteCashDraw.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\CompleteCashDrop.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\CompleteCashDrop.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Customers.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Customers.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\FlashReport.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\FlashReport.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllDepartments.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllDepartments.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllShifts.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllShifts.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllTenders.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllTenders.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllTills.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetAllTills.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetCashButtons.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetCashButtons.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetCashDrawTypes.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetCashDrawTypes.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetSaleBySaleNumber.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GetSaleBySaleNumber.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GivexCardBalance.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GivexCardBalance.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GivexDeactivateCardBalance.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\GivexDeactivateCardBalance.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\HotCategories.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\HotCategories.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\HotProductPages.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\HotProductPages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\InitializeNewSale.Json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\InitializeNewSale.Json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Login.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Login.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\LoginPolicy.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\LoginPolicy.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Logout.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Logout.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Messages.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\PasswordChange.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\PasswordChange.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Policy.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Policy.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\PriceCheck.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\PriceCheck.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ReasonList.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ReasonList.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\RetunSaleItems.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\RetunSaleItems.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ReturnSale.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\ReturnSale.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SaleCountReport.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SaleCountReport.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SaleList.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SaleList.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SearchCustomers.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SearchCustomers.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SetCustomerForSale.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SetCustomerForSale.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\StockCode.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\StockCode.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\StockItems.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\StockItems.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SuspendedSales.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SuspendedSales.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SuspendSale.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SuspendSale.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SwitchUser.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\SwitchUser.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\TillAuditReport.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\TillAuditReport.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Tills.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\Tills.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\UnsuspendSale.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\UnsuspendSale.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\UpdateTenderForCashdrop.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\UpdateTenderForCashdrop.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\VerifyStock.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\VerifyStock.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\VoidSale.json">
+      <PackagePath>Infonet.CStoreCommander.DataAccessLayer\OfflineData\JsonContent\VoidSale.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.UI.dll">
+      <PackagePath>Infonet.CStoreCommander.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.UI.exe">
+      <PackagePath>Infonet.CStoreCommander.UI.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Infonet.CStoreCommander.UI.pdb">
+      <PackagePath>Infonet.CStoreCommander.UI.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\MetroLog.WinRT.winmd">
+      <PackagePath>MetroLog.WinRT.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\PeripheralsComponent.winmd">
+      <PackagePath>PeripheralsComponent.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling1.wav">
+      <PackagePath>Sounds\Calling1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling10.wav">
+      <PackagePath>Sounds\Calling10.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling11.wav">
+      <PackagePath>Sounds\Calling11.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling12.wav">
+      <PackagePath>Sounds\Calling12.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling13.wav">
+      <PackagePath>Sounds\Calling13.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling14.wav">
+      <PackagePath>Sounds\Calling14.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling15.wav">
+      <PackagePath>Sounds\Calling15.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling16.wav">
+      <PackagePath>Sounds\Calling16.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling2.wav">
+      <PackagePath>Sounds\Calling2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling3.wav">
+      <PackagePath>Sounds\Calling3.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling4.wav">
+      <PackagePath>Sounds\Calling4.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling5.wav">
+      <PackagePath>Sounds\Calling5.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling6.wav">
+      <PackagePath>Sounds\Calling6.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling7.wav">
+      <PackagePath>Sounds\Calling7.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling8.wav">
+      <PackagePath>Sounds\Calling8.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\Calling9.wav">
+      <PackagePath>Sounds\Calling9.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\CHIMES.WAV">
+      <PackagePath>Sounds\CHIMES.WAV</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\DING.WAV">
+      <PackagePath>Sounds\DING.WAV</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\DOORBELL.WAV">
+      <PackagePath>Sounds\DOORBELL.WAV</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP1.wav">
+      <PackagePath>Sounds\HELP1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP10.wav">
+      <PackagePath>Sounds\HELP10.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP11.wav">
+      <PackagePath>Sounds\HELP11.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP12.wav">
+      <PackagePath>Sounds\HELP12.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP13.wav">
+      <PackagePath>Sounds\HELP13.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP14.wav">
+      <PackagePath>Sounds\HELP14.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP15.wav">
+      <PackagePath>Sounds\HELP15.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP16.wav">
+      <PackagePath>Sounds\HELP16.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP2.wav">
+      <PackagePath>Sounds\HELP2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP3.wav">
+      <PackagePath>Sounds\HELP3.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP4.wav">
+      <PackagePath>Sounds\HELP4.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP5.wav">
+      <PackagePath>Sounds\HELP5.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP6.wav">
+      <PackagePath>Sounds\HELP6.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP7.wav">
+      <PackagePath>Sounds\HELP7.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP8.wav">
+      <PackagePath>Sounds\HELP8.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\HELP9.wav">
+      <PackagePath>Sounds\HELP9.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\RECYCLE.WAV">
+      <PackagePath>Sounds\RECYCLE.WAV</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\Sounds\RING.WAV">
+      <PackagePath>Sounds\RING.WAV</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\_Resources\1.rsrc">
+      <PackagePath>_Resources\1.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\_Resources\2.rsrc">
+      <PackagePath>_Resources\2.rsrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infonet_final\InfonetUI-UWP_Dev\Infonet.CStoreCommander.UI\bin\x64\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24211.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24211.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24211.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24211.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24211.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24211.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

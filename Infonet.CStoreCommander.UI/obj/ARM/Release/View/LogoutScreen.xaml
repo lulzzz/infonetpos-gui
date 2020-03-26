@@ -1,0 +1,222 @@
+﻿<Page x:ConnectionId='1' xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Infonet.CStoreCommander.UI.View"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:controlLib="using:Infonet.CStoreCommander.ControlLib"
+      xmlns:controls="using:Infonet.CStoreCommander.UI.Controls"
+      xmlns:converter="using:Infonet.CStoreCommander.UI.Converter"
+      xmlns:i="using:Microsoft.Xaml.Interactivity"
+      xmlns:triggers="using:WinRT.Triggers"
+      xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:ViewModel="using:Infonet.CStoreCommander.UI.ViewModel"
+      x:Class="Infonet.CStoreCommander.UI.View.LogoutScreen"
+      mc:Ignorable="d">
+
+    <!--#region Resources-->
+    <Page.Resources>
+        <converter:NothingConverter x:Key="NothingConverter" />
+        <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    </Page.Resources>
+    <!--#endregion-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="103*" />
+            <RowDefinition Height="512*" />
+            <RowDefinition Height="153*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="259*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="259*" />
+        </Grid.ColumnDefinitions>
+
+        <!--#region  Logout Popup-->
+        <Grid x:ConnectionId='2' Background="{StaticResource BackgroundColor1Light}"
+              x:Name="gdLogoutPopup"
+              BorderThickness="2"
+              Grid.Row="1"
+              Grid.Column="1"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"
+              BorderBrush="{StaticResource BorderBrushForPopups}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!--#region Header-->
+            <controls:LargePopupHeader x:ConnectionId='5' x:Uid="txtLogoutHeading"
+                                                                                                                        />
+
+            <!--#endregion-->
+
+            <StackPanel Grid.Row="1"
+                        Padding="0,0,0,20"
+                        Background="{StaticResource BackgroundColor2}"
+                        HorizontalAlignment="Left">
+
+                <!--#region User Name-->
+                <PasswordBox x:ConnectionId='6' x:Name="txtUser"
+                             x:Uid="loginUser"
+                             PasswordRevealMode="Visible"
+                                                                                     
+                             Margin="20,7,20,12"
+                             TabIndex="-1"
+                             Style="{StaticResource PasswordBox}"
+                             MaxLength="10"
+                             Width="290">
+                    <triggers:Interactions.Triggers>
+                        <triggers:EventTrigger EventName="KeyUp">
+                            <triggers:InvokeCommandAction x:ConnectionId='15'                                                                             
+                                                          PassEventArgsToCommand="True" />
+                        </triggers:EventTrigger>
+                    </triggers:Interactions.Triggers>
+                    <i:Interaction.Behaviors>
+                        <ic:EventTriggerBehavior EventName="GotFocus">
+                            <ic:InvokeCommandAction x:ConnectionId='16'                                                                      />
+                        </ic:EventTriggerBehavior>
+                    </i:Interaction.Behaviors>
+                </PasswordBox>
+                <!--#endregion-->
+
+                <!--#region Password box-->
+
+                <PasswordBox x:ConnectionId='7' x:Name="txtPassword"
+                             x:Uid="loginPassword"
+                                                                                     
+                                                                                                         
+                             Margin="20,0,20,12"
+                             Width="290"
+                             MaxLength="10"
+                             Style="{StaticResource PasswordBox}"
+                             PasswordChar="*">
+                    <triggers:Interactions.Triggers>
+                        <triggers:EventTrigger EventName="KeyUp">
+                            <triggers:InvokeCommandAction x:ConnectionId='13'                                                                        
+                                                          PassEventArgsToCommand="True" />
+                        </triggers:EventTrigger>
+                    </triggers:Interactions.Triggers>
+                    <i:Interaction.Behaviors>
+                        <ic:EventTriggerBehavior EventName="GotFocus">
+                            <ic:InvokeCommandAction x:ConnectionId='14'                                                                      />
+                        </ic:EventTriggerBehavior>
+                    </i:Interaction.Behaviors>
+                </PasswordBox>
+                <!--#endregion-->
+
+                <StackPanel  Orientation="Horizontal">
+
+                    <!--#region Tills-->
+                    <ComboBox x:ConnectionId='11' x:Name="Till"
+                              x:Uid="cbTill"
+                              Margin="20,0,0,0"
+                              Foreground="{StaticResource LabelTextForegroundColor}"
+                              BorderBrush="{StaticResource LabelTextForegroundColor}"
+                              BorderThickness="1"
+                              Style="{StaticResource ComboBox}"
+                                                                                                                                           
+                                                                                            
+                                                                                            
+                              Width="140" />
+                    <!--#endregion-->
+
+                    <!--#region Shifts-->
+                    <ComboBox x:ConnectionId='12' x:Name="Shift"
+                              x:Uid="cbShift"
+                              Style="{StaticResource ComboBox}"
+                              Foreground="{StaticResource LabelTextForegroundColor}"
+                              Width="140"
+                              Margin="10,0,20,0"
+                                                                                               
+                              BorderBrush="{StaticResource LightGray}"
+                              BorderThickness="1"
+                                                                                             
+                                                                                        />
+                    <!--#endregion-->
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="0,50,0,0">
+                    <controlLib:GenericButton x:ConnectionId='9' x:Uid="btnSwitchUser"
+                                                                                                             
+                                              HorizontalAlignment="Right"
+                                              Margin="20,0,10,0"
+                                              Width="140"
+                                              VerticalAlignment="Top"
+                                                                                                              
+                                              BottomBackGroundColor="{StaticResource ButtonBottomColor}" />
+                    <controlLib:GenericButton x:ConnectionId='10' Margin="0,0,20,0"
+                                                                                                              
+                                                                                                              
+                                              x:Uid="btnLogout"
+                                              FontSize="16"
+                                              VerticalAlignment="Top"
+                                              Width="140"
+                                              BottomBackGroundColor="{StaticResource ButtonBottomColor}" />
+                </StackPanel>
+
+                <controlLib:GenericButton x:ConnectionId='8' x:Uid="btnFreezeTill"
+                                                                                                             
+                                                                                                      
+                                          FontSize="16"
+                                          Margin="20,10,0,0"
+                                          Width="140"
+                                          BottomBackGroundColor="{StaticResource Yellow}" />
+
+            </StackPanel>
+        </Grid>
+        <!--#endregion-->
+
+        <!--#region Error Popup-->
+        <!--<Popup x:Name="errorPopup"
+               Grid.Column="1"
+               Grid.Row="1"
+               IsOpen="{x:Bind LogoutScreenVM.PopupService.IsAlertPopupOpen, Mode=OneWay}">-->
+        <controls:NotificationPopup x:ConnectionId='3'                                                                    
+                                    BackgroundOverlay="{StaticResource DarkGray}"
+                                    Grid.Column="1"
+                                    Grid.Row="1"
+                                    x:Name="errorPopup"
+                                    VerticalAlignment="Top"
+                                                                                                                                                                         
+                                    Height="{Binding ActualHeight, ElementName=gdLogoutPopup}"
+                                    MinWidth="{Binding ActualWidth, ElementName=gdLogoutPopup}"
+                                                                                                         
+                                                                                                                           
+                                                                                                    />
+        <!--</Popup>-->
+        <!--#endregion-->
+
+        <controls:PopupWithTwoButtons x:ConnectionId='4' x:Uid="ShiftAlert"
+                                      Grid.Column="1"
+                                      x:Name="ConfirmationPopup"
+                                                                                                                                                                                  
+                                      HorizontalAlignment="Left"
+                                      Grid.Row="1"
+                                      VerticalAlignment="Top"
+                                      BackgroundOverlay="{StaticResource DarkGray}"
+                                      Height="{Binding ActualHeight, ElementName=gdLogoutPopup}"
+                                      MinWidth="{Binding ActualWidth, ElementName=gdLogoutPopup}"
+                                                                                                           
+                                                                                                                                        
+                                                                                                                                        
+                                                                                                                       
+                                                                                                                       
+                                                                                                             
+                                                                                                                         
+                                                                                                                                   
+                                                                                                                                           />
+
+        <!--<Popup x:Name="ConfirmationPopup"
+               Grid.Column="1"
+               HorizontalAlignment="Left"
+               Grid.Row="1"
+               IsOpen="{x:Bind LogoutScreenVM.PopupService.IsConfirmationPopupOpen, Mode=OneWay}">
+
+        </Popup>-->
+
+    </Grid>
+</Page>
+
